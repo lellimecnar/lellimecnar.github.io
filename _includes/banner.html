@@ -1,7 +1,9 @@
 <div id="banner">
   <span id="logo"></span>
 
-  <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
+  {% for entry in site.data.banner %}
+    <a href="{{ site.baseurl }}{{ entry.url }}" class="{{ entry.class }}"><strong>{{ entry.title }}</strong></a>
+  {% endfor %}
   {% if site.show_downloads %}
     <div class="downloads">
       <span>Downloads:</span>
