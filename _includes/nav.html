@@ -1,0 +1,28 @@
+{% for entry in site.data.nav %}
+{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+  {% if fullurl == page.url %}
+  {% break %}
+  {% elsif page.url contains fullurl %}
+    {% assign current_page = fullurl %}
+  {% endif %}
+{% endfor %}
+
+<nav>
+  <ul>
+  {% for entry in site.data.navigation %}
+    {% assign sublinks = entry.sublinks %}
+    <li class="{% if entry.url == current_page %}current{% endif %}">
+      <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+      {% if sublinks %}
+        <ul>
+        {% for sublink in sublinks %}
+          <li>
+            <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+          </li>
+        {% enfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</nav>
