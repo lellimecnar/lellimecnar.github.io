@@ -6,5 +6,5 @@ title: Home
 This is the home page!
 
 {% for entry in site.costuming %}
-	<pre>{{ entry | json }}</pre>
+	<a href="{{ entry.url }}">{{ entry.title }}</a>
 {% endfor %}
