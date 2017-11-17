@@ -1,4 +1,7 @@
 name: Lellimecnar
-theme: jekyll-theme-architect
+theme: jekyll-theme-leap-day
 title: Lellimecnar
 description: Lance Miller
+collections:
+  costuming:
+    permalink: /:collection/:category/:name
