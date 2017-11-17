@@ -16,12 +16,7 @@
   </head>
   <body>
 
-      <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-      </header>
-
-      {% include banner.html %}
+    {% include header.html %}
 
     <div class="wrapper">
       {% include nav.html %}

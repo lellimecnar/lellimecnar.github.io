@@ -4,4 +4,12 @@ title: Lellimecnar
 description: Lance Miller
 collections:
   costuming:
-    permalink: /:collection/:category/:name
+    title: Costuming
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default

@@ -1,0 +1,13 @@
+<header>
+	{% if page.collection %}
+		{% for collection in site.collections %}
+			{% if collection.label == page.collection %}
+				<h1>{{ collection.title }}</h1>
+			{% endif %}
+		{% endfor %}
+		<p>{{ page.title }}</p>
+	{% else %}
+		<h1>{{ site.title }}</h1>
+		<p>{{ site.description }}</p>
+	{% endif %}
+</header>
