@@ -4,3 +4,10 @@ title: Home
 ---
 
 This is the home page!
+
+{% for entry in site.pages %}
+	<pre>{{ entry | json }}</pre>
+{% endfor %}
+{% for entry in site.collections %}
+	<pre>{{ entry | json }}</pre>
+{% endfor %}
