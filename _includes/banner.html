@@ -1,6 +1,6 @@
 <div id="banner">
-  {% for entry in site.data.banner %}
-    <a href="{{ site.baseurl }}{{ entry.url }}" class="button {{ entry.class }}"><strong>{{ entry.title }}</strong></a>
+  {% for entry in site.pages %}
+    <a href="{{ site.baseurl }}{{ entry.url }}" class="button"><strong>{{ entry.title }}</strong></a>
   {% endfor %}
   {% if site.show_downloads %}
     <div class="downloads">
