@@ -1,25 +1,28 @@
 <nav>
 	<ul>
-	{% for entry in site.pages %}
-		{% if entry.title %}
-			<li>
-				<a href="{{ site.baseurl }}{{ entry.url }}"><strong>{{ entry.title }}</strong></a>
-			</li>
-		{% endif %}
-	{% endfor %}
-	{% for collection in site.collections %}
-		{% if collection.title %}
-			<li class="Nav__header Nav__header--collection">
-				{{ collection.title }}
-				<ul>
-					{% for entry in collection.docs %}
-						<li>
-							<a href="{{ site.baseurl }}{{ entry.url }}"><strong>{{ entry.title }}</strong></a>
-						</li>
-					{% endfor %}
-				</ul>
-			</li>
-		{% endif %}
-	{% endfor %}
+		{% for entry in site.pages %}
+			{% if entry.title %}
+				<li>
+					<a href="{{ site.baseurl }}{{ entry.url }}"><strong>{{ entry.title }}</strong></a>
+				</li>
+			{% endif %}
+		{% endfor %}
+		{% for collection in site.collections %}
+			{% if collection.title %}
+				<li class="Nav__header Nav__header--collection">
+					<br />
+					<strong>{{ collection.title }}</strong>
+				</li>
+				{% for entry in collection.docs %}
+					<li>
+						<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+					</li>
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+		<li>
+			<br />
+			<strong>{{ page.title }}</strong>
+		</li>
 	</ul>
 </nav>
