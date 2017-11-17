@@ -1,6 +1,4 @@
 <div id="banner">
-  <span id="logo"></span>
-
   {% for entry in site.data.banner %}
     <a href="{{ site.baseurl }}{{ entry.url }}" class="button fork {{ entry.class }}"><strong>{{ entry.title }}</strong></a>
   {% endfor %}
