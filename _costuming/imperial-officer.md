@@ -1,4 +1,19 @@
 ---
 title: Imperial Officer
 ---
-This is where the stuff goes...
+
+## Introduction
+
+After making my [Old Luke costume](/costuming/luke-tfa.html), I decided that I wanted to sew some more Star Wars costumes, so I set out to find another project. I settled on the Imperial Officer uniform because it involved a lot of sewing, and not a lot of non-fabric parts.
+
+I already had the [McCall's M4745 pattern](https://mccallpattern.mccall.com/m4745) that I used to make the under tunic for my Luke costume, so I decided to use that as a starting point.
+
+I decided that since there are so many different types of Imperial Officer uniforms, and they're mostly identical, I'm going to put together some patterns that I can re-use and make as many of the different varieties as I want.
+
+## Gathering Materials
+
+|  | **Fabric** | **Lining** | **Interfacing** |
+|---|---|---|---|
+| **Tunic** | 2¾ | 3⅛ | ¾ |
+| **Trousers** | 3 | – | 1⅛ |
+| **Total** | **5¾** | **3⅛** | **3⅛** |
