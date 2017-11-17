@@ -17,3 +17,37 @@ I decided that since there are so many different types of Imperial Officer unifo
 | **Tunic** | 2¾ | 3⅛ | ¾ |
 | **Trousers** | 3 | – | 1⅛ |
 | **Total** | **5¾** | **3⅛** | **3⅛** |
+
+## Pattern Modifications
+
+### Tunic
+
+| Number | Part | Modifications |
+|---|---|---|
+| **1** |  |  |
+| **2** |  |  |
+| **3** | Upper Back | As a general rule, the uniforms don't have a middle seam down the back, so #3 will need to be mirrored into one piece. (make sure you subtract the seam allowance from the middle) |
+| **4** |  |  |
+| **5** |  |  |
+| **6** |  |  |
+| **7** |  |  |
+| **8** |  |  |
+| **9** |  |  |
+| **10** |  |  |
+| **11** |  |  |
+| **12** |  |  |
+| **13** |  |  |
+| **14** |  |  |
+| **15** |  |  |
+
+### Trousers
+
+| Number | Part | Modifications |
+|---|---|---|
+| **16** |  |  |
+| **17** |  |  |
+| **18** |  |  |
+| **19** |  |  |
+| **20** |  |  |
+| **21** |  |  |
+| **22** |  |  |
