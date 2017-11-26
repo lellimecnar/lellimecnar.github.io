@@ -1,3 +1,11 @@
 <div class="RankBar">
-
+	{% assign rows = include.rank | split: 'x' %}
+	{% for row in rows %}
+		<div class="RankBar__row">
+			{% assign tiles = row | split: '' %}
+			{% for tile in tiles %}
+				<span class="RankBar__tile RankBar__tile--{{ tile }}"></span>
+			{% endfor %}
+		</div>
+	{% endfor %}
 </div>
