@@ -60,3 +60,5 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 | **20** |  |  |
 | **21** |  |  |
 | **22** |  |  |
+
+<script type="text/javascript" src="{{ '/assets/js/imperial-officer.js?v=' | append: site.github.build_revision | relative_url }}"></script>
