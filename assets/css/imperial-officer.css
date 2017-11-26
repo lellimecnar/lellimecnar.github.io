@@ -1,0 +1,33 @@
+i[data-rank-bar] {
+	display: block;
+	background: #aaa;
+	border-radius: 3px;
+}
+
+i[data-rank-bar] > span {
+	display: block;
+	white-space: nowrap;
+}
+
+i[data-rank-bar] > span:not(:last-child) {
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+	
+i[data-rank-tile] {
+	width: 12px;
+	height: 20px;
+	display: inline-block;
+	margin: 4px;
+}
+
+i[data-rank-tile="R"] {
+	background-color: #F00;
+}
+		
+i[data-rank-tile="B"] {
+	background-color: #00F;
+}
+		
+i[data-rank-tile="Y"] {
+	background-color: #FF0;
+}
