@@ -18,8 +18,8 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 | **Character** | **Tunic** | **Pants** | **Rank Bar** | **Other Differences** |
 |---|---|---|---|---|
 | **Thrawn (Rebels)** | White, no center dart, "bell curved" seam on sleeves | White, straight-legged | <i data-rank-bar="BBBYYY-BBBRRR"></i> | Golden epaulets, arrows on collar |
-| **Director Krennic** | White | Black, johdpur-style | <i data-rank-bar="RRRRRR-BBBBBB"></i> | With cape |
-| **Grand Moff Tarkin** | Olive | Olive, johdpur-style | <i data-rank-bar="BBBBBB-RRRYYY"></i> | – |
+| **Director Krennic** | White | Black, jodhpur-style | <i data-rank-bar="RRRRRR-BBBBBB"></i> | With cape |
+| **Grand Moff Tarkin** | Olive | Olive, jodhpur-style | <i data-rank-bar="BBBBBB-RRRYYY"></i> | – |
 
 ## Gathering Materials
 
