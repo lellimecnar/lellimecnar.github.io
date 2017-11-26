@@ -10,6 +10,15 @@ I already had the [McCall's M4745 pattern](https://mccallpattern.mccall.com/m474
 
 I decided that since there are so many different types of Imperial Officer uniforms, and they're mostly identical, I'm going to put together some patterns that I can re-use and make as many of the different varieties as I want.
 
+## Officer Variations
+The base uniform has the double sided yoke, with the clasp on the wearer's right shoulder, in either black (Staff Officer), white (ISB, Krennic, Thrawn, etc.), or "olive drab" or "fieldgrey" (Line Officer, Tarkin, etc.). The pants match the tunic, except for the white ISB uniforms, in which case, the pants are black. With few exceptions, the pants are all "jodhpur" style.
+
+| **Character** | **Tunic** | **Pants** | **Rank Bar** | **Other Differences** |
+|---|---|---|---|---|
+| **Thrawn (Rebels)** | White, no center dart, "bell curved" seam on sleeves | White, straight-legged | <i data-rank-bar="BBBYYY-BBBRRR"></i> | Golden epaulets, arrows on collar |
+| **Director Krennic** | White | Black, johdpur-style | <i data-rank-bar="RRRRRR-BBBBBB"></i> | With cape |
+| **Grand Moff Tarkin** | Olive | Olive, johdpur-style | <i data-rank-bar="BBBBBB-RRRYYY"></i> | – |
+
 ## Gathering Materials
 
 |  | **Fabric** | **Lining** | **Interfacing** |
