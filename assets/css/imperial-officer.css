@@ -1,4 +1,4 @@
-i[data-rank-bar] {
+.RankBar {
 	display: block;
 	background: #aaa;
 	border-radius: 3px;
@@ -7,22 +7,22 @@ i[data-rank-bar] {
 	border-left-color: rgba(255, 255, 255, 0.2);
 }
 
-i[data-rank-bar] > span {
+.RankBar__row {
 	display: block;
 	white-space: nowrap;
 	height: 28px;
 }
 
-i[data-rank-bar] > span:not(:last-child) {
+.RankBar__row:not(:last-child) {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 
-i[data-rank-bar] > span:not(:first-child) {
+.RankBar__row:not(:first-child) {
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 	
-i[data-rank-tile] {
+.RankBar__tile {
 	width: 12px;
 	height: 20px;
 	display: inline-block;
@@ -34,18 +34,18 @@ i[data-rank-tile] {
 	border-left-color: rgba(255, 255, 255, 0.1);
 }
 
-i[data-rank-tile]:not(:last-child) {
+.RankBar__tile:not(:last-child) {
 	margin-right: 0;
 }
 
-i[data-rank-tile="R"] {
+.RankBar__tile--R {
 	background-color: #F00;
 }
 		
-i[data-rank-tile="B"] {
+.RankBar__tile--B {
 	background-color: #00F;
 }
 		
-i[data-rank-tile="Y"] {
+.RankBar__tile--Y {
 	background-color: #FF0;
 }
