@@ -49,3 +49,7 @@
 .RankBar__tile--Y {
 	background-color: #FF0;
 }
+
+td ul {
+	padding-left: 10px;
+}
