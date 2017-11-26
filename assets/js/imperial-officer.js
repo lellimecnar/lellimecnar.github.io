@@ -15,5 +15,7 @@
 			
 			html += '</span>';
 		});
+		
+		bar.innerHTML = html;
 	});
 })();
