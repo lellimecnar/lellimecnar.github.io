@@ -37,7 +37,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 |---|---|---|
 | **1** |  |  |
 | **2** |  |  |
-| **3** | Upper Back | As a general rule, the uniforms don't have a middle seam down the back, so #3 will need to be mirrored into one piece. (make sure you subtract the seam allowance from the middle) |
+| **3** | Upper Back | As a general rule, the uniforms don't have a middle seam down the back, so #3 will need to be cut on the fold (minus seam allowance) |
 | **4** |  |  |
 | **5** |  |  |
 | **6** |  |  |
