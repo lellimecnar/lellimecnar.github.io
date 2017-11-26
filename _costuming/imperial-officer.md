@@ -15,57 +15,63 @@ I decided that since there are so many different types of Imperial Officer unifo
 ## Officer Variations
 The base uniform has the double sided yoke, with the clasp on the wearer's right shoulder, in either black (Staff Officer), white (ISB, Krennic, Thrawn, etc.), or "olive drab" or "fieldgrey" (Line Officer, Tarkin, etc.). The pants match the tunic, except for the white ISB uniforms, in which case, the pants are black. With few exceptions, the pants are all "jodhpur" style.
 
-{::options parse_block_html="true" /}
 <table>
 	<thead>
 		<tr>
-			<th>**Character**</th>
-			<th>**Tunic**</th>
-			<th>**Pants**</th>
-			<th>**Rank Bar**</th>
-			<th>**Other Differences**</th>
+			<th>Character</th>
+			<th>Tunic</th>
+			<th>Pants</th>
+			<th>Rank Bar</th>
+			<th>Other Differences</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>**Thrawn (Rebels)**</td>
+			<td><strong>Thrawn (Rebels)</strong></td>
 			<td>
-**White**
-
-* no center dart
-* "bell curved" seam on sleeves
+				<strong>White</strong>
+				<ul>
+					<li>no center dart</li>
+					<li>"bell curved" seam on sleeves</li>
 			</td>
 			<td>
-**White**
-
-* straight-legged
+				<strong>White</strong>
+				<ul>
+					<li>straight-legged</li>
+				</ul>
 			</td>
 			<td>{% include rank-bar.html rank="BBBYYY-BBBRRR" %}</td>
 			<td>
-* Golden epaulets
-* arrows on collar
+				<ul>
+					<li>Golden epaulets</li>
+					<li>arrows on collar</li>
+				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>**Director Krennic</td>
-			<td>**White**</td>
+			<td><strong>Director Krennic</strong></td>
+			<td><strong>White</strong></td>
 			<td>
-**Black**
-
-* jodhpur-style
+				<strong>Black</strong>
+				<ul>
+					<li>jodhpur-style</li>
+				</ul>
 			</td>
 			<td>{% include rank-bar.html rank="RRRRRR-BBBBBB" %}</td>
 			<td>
-* with cape
+				<ul>
+					<li>with cape</li>
+				</ul>
 			</td>
 		</tr>
 		<tr>
-			<td>**Grand Moff Tarkin</td>
-			<td>**Olive**</td>
+			<td><strong>Grand Moff Tarkin</strong></td>
+			<td><strong>Olive</strong></td>
 			<td>
-**Olive**
-
-* jodhpur-style
+				<strong>Olive</strong>
+				<ul>
+					<li>jodhpur-style</li>
+				</ul>
 			</td>
 			<td>{% include rank-bar.html rank="BBBBBB-RRRYYY" %}</td>
 			<td>–</td>
