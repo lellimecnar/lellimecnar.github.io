@@ -33,6 +33,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 				<ul>
 					<li>no center dart</li>
 					<li>"bell curved" seam on sleeves</li>
+				</ul>
 			</td>
 			<td>
 				<strong>White</strong>
