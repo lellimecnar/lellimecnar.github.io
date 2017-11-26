@@ -2,6 +2,8 @@
 title: Imperial Officer
 ---
 
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/imperial-officer.css?v=' | append: site.github.build_revision | relative_url }}"></link>
+
 ## Introduction
 
 After making my [Old Luke costume](/costuming/luke-tfa.html), I decided that I wanted to sew some more Star Wars costumes, so I set out to find another project. I settled on the Imperial Officer uniform because it involved a lot of sewing, and not a lot of non-fabric parts.
@@ -60,5 +62,5 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 | **20** |  |  |
 | **21** |  |  |
 | **22** |  |  |
-<link rel="stylesheet" type="text/css" href="{{ '/assets/css/imperial-officer.css?v=' | append: site.github.build_revision | relative_url }}">
+
 <script type="text/javascript" src="{{ '/assets/js/imperial-officer.js?v=' | append: site.github.build_revision | relative_url }}"></script>
