@@ -15,11 +15,62 @@ I decided that since there are so many different types of Imperial Officer unifo
 ## Officer Variations
 The base uniform has the double sided yoke, with the clasp on the wearer's right shoulder, in either black (Staff Officer), white (ISB, Krennic, Thrawn, etc.), or "olive drab" or "fieldgrey" (Line Officer, Tarkin, etc.). The pants match the tunic, except for the white ISB uniforms, in which case, the pants are black. With few exceptions, the pants are all "jodhpur" style.
 
-| **Character** | **Tunic** | **Pants** | **Rank Bar** | **Other Differences** |
-|---|---|---|---|---|
-| **Thrawn (Rebels)** | **White**<br/>{::nomarkdown}<ul><li>no center dart</li><li>"bell curved" seam on sleeves</li></ul> | **White**<br/><ul><li>straight-legged</li></ul>{:/} | {% include rank-bar.html rank="BBBYYY-BBBRRR" %} | Golden epaulets, arrows on collar |
-| **Director Krennic** | **White** | **Black**<br/>{::nomarkdown}<ul><li>jodhpur-style</li></ul>{:/} | <i data-rank-bar="RRRRRR-BBBBBB"></i> | With cape |
-| **Grand Moff Tarkin** | **Olive** | **Olive**<br/>{::nomarkdown}<ul><li>jodhpur-style</li></ul>{:/} | <i data-rank-bar="BBBBBB-RRRYYY"></i> | – |
+<table>
+	<thead>
+		<tr>
+			<th>**Character**</th>
+			<th>**Tunic**</th>
+			<th>**Pants**</th>
+			<th>**Rank Bar**</th>
+			<th>**Other Differences**</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>**Thrawn (Rebels)**</td>
+			<td>
+**White**
+
+* no center dart
+* "bell curved" seam on sleeves
+			</td>
+			<td>
+**White**
+
+* straight-legged
+			</td>
+			<td>{% include rank-bar.html rank="BBBYYY-BBBRRR" %}</td>
+			<td>
+* Golden epaulets
+* arrows on collar
+			</td>
+		</tr>
+		<tr>
+			<td>**Director Krennic</td>
+			<td>**White**</td>
+			<td>
+**Black**
+
+* jodhpur-style
+			</td>
+			<td>{% include rank-bar.html rank="RRRRRR-BBBBBB" %}</td>
+			<td>
+* with cape
+			</td>
+		</tr>
+		<tr>
+			<td>**Grand Moff Tarkin</td>
+			<td>**Olive**</td>
+			<td>
+**Olive**
+
+* jodhpur-style
+			</td>
+			<td>{% include rank-bar.html rank="BBBBBB-RRRYYY" %}</td>
+			<td>–</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Gathering Materials
 
