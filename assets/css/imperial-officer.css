@@ -28,6 +28,7 @@ i[data-rank-tile] {
 
 i[data-rank-tile]:not(:last-child) {
 	margin-right: 0;
+}
 
 i[data-rank-tile="R"] {
 	background-color: #F00;
