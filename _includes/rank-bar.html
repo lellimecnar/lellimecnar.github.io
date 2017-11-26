@@ -1,3 +1,4 @@
+{%- capture output -%}
 <div class="RankBar">
 	{%- assign rows = include.rank | split: "-" -%}
 	{%- for row in rows -%}
@@ -9,3 +10,5 @@
 		</div>
 	{%- endfor -%}
 </div>
+{%- endcapture -%}
+{{- output | markdownify -}}
