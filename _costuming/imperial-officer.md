@@ -15,6 +15,7 @@ I decided that since there are so many different types of Imperial Officer unifo
 ## Officer Variations
 The base uniform has the double sided yoke, with the clasp on the wearer's right shoulder, in either black (Staff Officer), white (ISB, Krennic, Thrawn, etc.), or "olive drab" or "fieldgrey" (Line Officer, Tarkin, etc.). The pants match the tunic, except for the white ISB uniforms, in which case, the pants are black. With few exceptions, the pants are all "jodhpur" style.
 
+{::options parse_block_html="true" /}
 <table>
 	<thead>
 		<tr>
