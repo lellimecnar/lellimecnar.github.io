@@ -1,5 +1,5 @@
 <div class="RankBar">
-	{% assign rows = include.rank | split: 'x' %}
+	{% assign rows = include.rank | split: '-' %}
 	{% for row in rows %}
 		<div class="RankBar__row">
 			{% assign tiles = row | split: '' %}
