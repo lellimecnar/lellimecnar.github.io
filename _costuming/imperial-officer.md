@@ -17,9 +17,9 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 
 | **Character** | **Tunic** | **Pants** | **Rank Bar** | **Other Differences** |
 |---|---|---|---|---|
-| **Thrawn (Rebels)** | **White**<br/><ul><li>no center dart</li><li>"bell curved" seam on sleeves</li></ul> | **White**<br/><ul><li>straight-legged</li></ul> | <i data-rank-bar="BBBYYY-BBBRRR"></i>{% include rank-bar.html rank="BBBYYY-BBBRRR" %} | Golden epaulets, arrows on collar |
-| **Director Krennic** | **White** | **Black**<br/><ul><li>jodhpur-style</li></ul> | <i data-rank-bar="RRRRRR-BBBBBB"></i> | With cape |
-| **Grand Moff Tarkin** | **Olive** | **Olive**<br/><ul><li>jodhpur-style</li></ul> | <i data-rank-bar="BBBBBB-RRRYYY"></i> | – |
+| **Thrawn (Rebels)** | **White**<br/>{::nomarkdown}<ul><li>no center dart</li><li>"bell curved" seam on sleeves</li></ul> | **White**<br/><ul><li>straight-legged</li></ul>{:/} | {% include rank-bar.html rank="BBBYYY-BBBRRR" %} | Golden epaulets, arrows on collar |
+| **Director Krennic** | **White** | **Black**<br/>{::nomarkdown}<ul><li>jodhpur-style</li></ul>{:/} | <i data-rank-bar="RRRRRR-BBBBBB"></i> | With cape |
+| **Grand Moff Tarkin** | **Olive** | **Olive**<br/>{::nomarkdown}<ul><li>jodhpur-style</li></ul>{:/} | <i data-rank-bar="BBBBBB-RRRYYY"></i> | – |
 
 ## Gathering Materials
 
