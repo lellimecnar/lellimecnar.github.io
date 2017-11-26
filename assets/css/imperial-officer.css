@@ -2,6 +2,9 @@ i[data-rank-bar] {
 	display: block;
 	background: #aaa;
 	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-top-color: rgba(255, 255, 255, 0.2);
+	border-left-color: rgba(255, 255, 255, 0.2);
 }
 
 i[data-rank-bar] > span {
@@ -24,6 +27,7 @@ i[data-rank-tile] {
 	height: 20px;
 	display: inline-block;
 	margin: 4px;
+	border-radius: 2px;
 }
 
 i[data-rank-tile]:not(:last-child) {
