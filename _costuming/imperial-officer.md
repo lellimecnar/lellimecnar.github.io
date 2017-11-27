@@ -41,7 +41,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 					<li>straight-legged</li>
 				</ul>
 			</td>
-			<td>{%- include rank-bar.html rank="BBBYYY-BBBRRR" -%}</td>
+			<td>{%- include rank-bar.html rank="BBBYYY-BBBRRR" color="W" -%}</td>
 			<td>
 				<ul>
 					<li>Golden epaulets</li>
@@ -58,7 +58,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 					<li>jodhpur-style</li>
 				</ul>
 			</td>
-			<td>{%- include rank-bar.html rank="RRRRRR-BBBBBB" -%}</td>
+			<td>{%- include rank-bar.html rank="RRRRRR-BBBBBB" color="W" -%}</td>
 			<td>
 				<ul>
 					<li>with cape</li>
@@ -74,7 +74,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 					<li>jodhpur-style</li>
 				</ul>
 			</td>
-			<td>{%- include rank-bar.html rank="BBBBBB-RRRYYY" -%}</td>
+			<td>{%- include rank-bar.html rank="BBBBBB-RRRYYY" color="O" -%}</td>
 			<td></td>
 		</tr>
 	</tbody>
