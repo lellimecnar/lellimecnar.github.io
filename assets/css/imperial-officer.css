@@ -1,4 +1,20 @@
 .RankBar {
+	padding: 20px 10px;
+}
+
+.RankBar--W {
+	background: #fff;
+}
+
+.RankBar--B {
+	background: #000;
+}
+
+.RankBar--O {
+	background: #424641;
+}
+
+.RankBar__bar {
 	display: block;
 	background: #bbb;
 	border-radius: 3px;
