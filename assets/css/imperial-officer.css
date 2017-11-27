@@ -1,18 +1,19 @@
 .RankBar {
 	padding: 20px 10px;
+	background-image: repeating-linear-gradient(-45deg, rgba(0,0,0,0.1) 0, rgba(255,255,255,0.1) 2px, rgba(0,0,0,0.1) 4px);
 }
 
 .RankBar,
 .RankBar--O {
-	background: #424641;
+	background-color: #424641;
 }
 
 .RankBar--W {
-	background: #fff;
+	background-color: #fff;
 }
 
 .RankBar--B {
-	background: #000;
+	background-color: #000;
 }
 
 .RankBar__bar {
