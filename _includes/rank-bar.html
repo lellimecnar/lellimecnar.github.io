@@ -1,4 +1,4 @@
-<div class="RankBar {%- if include.color -%}RankBar--{{- include.color -}}{%- endif -%}">
+<div class="RankBar {% if include.color %}RankBar--{{ include.color }}{% endif %}">
 	{%- assign rows = include.rank | split: "-" -%}
 	<div class="RankBar__bar">
 		{%- for row in rows -%}
