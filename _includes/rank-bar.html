@@ -1,11 +1,13 @@
-<div class="RankBar">
+<div class="RankBar {%- if include.color -%}RankBar--{{- include.color -}}{%- endif -%}">
 	{%- assign rows = include.rank | split: "-" -%}
-	{%- for row in rows -%}
-		<div class="RankBar__row">
-			{%- assign tiles = row | split: "" -%}
-			{%- for tile in tiles -%}
-				<span class="RankBar__tile RankBar__tile--{{ tile }}"></span>
-			{%- endfor -%}
-		</div>
-	{%- endfor -%}
+	<div class="RankBar__bar">
+		{%- for row in rows -%}
+			<div class="RankBar__row">
+				{%- assign tiles = row | split: "" -%}
+				{%- for tile in tiles -%}
+					<span class="RankBar__tile RankBar__tile--{{ tile }}"></span>
+				{%- endfor -%}
+			</div>
+		{%- endfor -%}
+	</div>
 </div>
