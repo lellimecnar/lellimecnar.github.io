@@ -14,3 +14,9 @@ section {
 nav {
 	top: 150px;
 }
+
+#comments,
+#comments > iframe {
+	width: 100% !important;
+	max-width: 100% !important;
+}
