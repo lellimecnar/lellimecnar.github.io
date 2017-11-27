@@ -1,6 +1,6 @@
 .RankBar {
 	display: block;
-	background: #aaa;
+	background: #bbb;
 	border-radius: 3px;
 	border: 1px solid transparent;
 	border-top-color: rgba(255, 255, 255, 0.2);
@@ -14,7 +14,7 @@
 }
 
 .RankBar__row:not(:last-child) {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 
@@ -31,8 +31,7 @@
 	border-radius: 2px;
 	border: 2px solid transparent;
 	border-top-color: rgba(255, 255, 255, 0.3);
-	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 -2px 4px rgba(255, 255, 255, 0.2);
-	opacity: 0.75;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 -2px 4px rgba(255, 255, 255, 0.1);
 }
 
 .RankBar__tile:not(:last-child) {
@@ -49,7 +48,6 @@
 		
 .RankBar__tile--Y {
 	background-color: #FFA518;
-	border-top-color: #fff;
 }
 
 td ul {
