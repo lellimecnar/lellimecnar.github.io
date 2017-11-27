@@ -1,5 +1,10 @@
-<div class="RankBar {% if include.color %}RankBar--{{ include.color }}{% endif %}">
-	{%- assign rows = include.rank | split: "-" -%}
+{%- assign parts = include.rank | split: ":" -%}
+{%- assign color1 = parts[0] -%}
+{%- assign rank = parts[1] -%}
+{%- assign color2 = parts[2] -%}
+
+<div class="RankBar RankBar--{{ color1 }}">
+	{%- assign rows = rank | split: "-" -%}
 	<div class="RankBar__bar">
 		{%- for row in rows -%}
 			<div class="RankBar__row">
@@ -10,4 +15,5 @@
 			</div>
 		{%- endfor -%}
 	</div>
+	<div class="RankBar__trouserColor RankBar__trouserColor--{{ color2 }}"></div>
 </div>
