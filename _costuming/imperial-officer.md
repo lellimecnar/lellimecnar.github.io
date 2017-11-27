@@ -126,3 +126,5 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 *[IOC]: Imperial Officer Corps
 
 <script type="text/javascript" src="{{ '/assets/js/imperial-officer.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+
+{% include comments.html %}
