@@ -10,7 +10,7 @@
 .RankBar__row {
 	display: block;
 	white-space: nowrap;
-	height: 28px;
+	height: 17px;
 }
 
 .RankBar__row:not(:last-child) {
@@ -23,15 +23,15 @@
 }
 	
 .RankBar__tile {
-	width: 12px;
-	height: 20px;
+	width: 9px;
+	height: 13px;
 	display: inline-block;
 	box-sizing: border-box;
-	margin: 4px;
+	margin: 2px;
 	border-radius: 2px;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	border-top-color: rgba(255, 255, 255, 0.1);
-	border-left-color: rgba(255, 255, 255, 0.1);
+	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-left: 2px solid rgba(255, 255, 255, 0.2);
+	opacity: 0.75;
 }
 
 .RankBar__tile:not(:last-child) {
