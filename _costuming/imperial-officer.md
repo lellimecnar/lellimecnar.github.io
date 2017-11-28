@@ -29,7 +29,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		<tr>
 			<td><strong>Thrawn (Rebels)</strong></td>
 			<td>
-				<strong>White</strong>
+				{% include officer-tunic.html color="white" %}
 				<ul>
 					<li>no center dart</li>
 					<li>"bell curved" seam on sleeves</li>
@@ -51,7 +51,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		</tr>
 		<tr>
 			<td><strong>Director Krennic</strong></td>
-			<td><svg class="Tunic Tunic--white"><use xlink:href="{{ '/assets/images/imperial-officer-tunic.svg?v=' | append: site.github.build_revision | relative_url }}"></use></svg></td>
+			<td>{% include officer-tunic.html color="white" %}</td>
 			<td>
 				<strong>Black</strong>
 				<ul>
@@ -67,7 +67,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		</tr>
 		<tr>
 			<td><strong>Grand Moff Tarkin</strong></td>
-			<td><svg class="Tunic Tunic--olive"><use xlink:href="{{ '/assets/images/imperial-officer-tunic.svg?v=' | append: site.github.build_revision | relative_url }}"></use></svg></td>
+			<td>{% include officer-tunic.html color="olive" %}</td>
 			<td>
 				<strong>Olive</strong>
 				<ul>
