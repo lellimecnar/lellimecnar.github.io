@@ -51,7 +51,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		</tr>
 		<tr>
 			<td><strong>Director Krennic</strong></td>
-			<td>{% include officer-tunic.html color="white" %}</td>
+			<td>{% include officer-tunic.html class="white" %}</td>
 			<td>
 				<strong>Black</strong>
 				<ul>
@@ -67,7 +67,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		</tr>
 		<tr>
 			<td><strong>Grand Moff Tarkin</strong></td>
-			<td>{% include officer-tunic.html color="olive" %}</td>
+			<td>{% include officer-tunic.html class="olive" %}</td>
 			<td>
 				<strong>Olive</strong>
 				<ul>
