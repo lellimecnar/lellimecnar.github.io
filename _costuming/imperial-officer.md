@@ -67,7 +67,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		</tr>
 		<tr>
 			<td><strong>Grand Moff Tarkin</strong></td>
-			<td><strong>Olive</strong></td>
+			<td><svg class="Tunic Tunic--white"><use xlink:href="{{ '/assets/images/imperial-officer-tunic.svg?v=' | append: site.github.build_revision | relative_url }}"></use></svg></td>
 			<td>
 				<strong>Olive</strong>
 				<ul>
