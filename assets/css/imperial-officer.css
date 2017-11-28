@@ -75,3 +75,15 @@
 td ul {
 	padding-left: 10px;
 }
+
+.Tunic--white {
+	fill: #fff;
+}
+
+.Tunic--olive {
+	fill: #424641;
+}
+
+.Tunic--black {
+	fill: #222;
+}
