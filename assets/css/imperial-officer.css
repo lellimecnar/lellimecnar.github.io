@@ -87,3 +87,7 @@ td ul {
 .Tunic--black {
 	fill: #222;
 }
+
+.Tunic--noCenterDart .Tunic__centerDart {
+	display: none !important;
+}
