@@ -76,6 +76,7 @@ td ul {
 }
 
 .Tunic--noCenterDart .Tunic__centerDart,
+.Tunic:not(.Tunic--bellSleeves) .Tunic__bellSeam,
 .Trousers--straight .Trousers__poof,
 .Trousers:not(.Trousers--straight) .Trousers__straightStroke {
 	display: none !important;
