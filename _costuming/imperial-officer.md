@@ -28,7 +28,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<tbody>
 		<tr>
 			<td><strong>Thrawn (Rebels)</strong></td>
-			<td>{%- include officer-tunic.html class="white noCenterDart" -%}
+			<td>{%- include officer-tunic.html class="white noCenterDart bellSleeves" -%}
 				<ul>
 					<li>no center dart</li>
 					<li>"bell curved" seam on sleeves</li>
