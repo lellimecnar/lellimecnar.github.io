@@ -76,18 +76,28 @@ td ul {
 	padding-left: 10px;
 }
 
-.Tunic--white {
+.Tunic,
+.Trousers{
+	width: 50px;
+}
+
+.Tunic--white,
+.Trousers--white {
 	fill: #fff;
 }
 
-.Tunic--olive {
+.Tunic--olive,
+.Trousers--olive {
 	fill: #424641;
 }
 
-.Tunic--black {
+.Tunic--black,
+.Trousers--black {
 	fill: #222;
 }
 
-.Tunic--noCenterDart .Tunic__centerDart {
+.Tunic--noCenterDart .Tunic__centerDart,
+.Trousers--straight .Trousers__poof,
+.Trousers:not(.Trousers--straight) .Trousers__straightStroke {
 	display: none !important;
 }
