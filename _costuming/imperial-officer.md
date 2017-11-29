@@ -28,7 +28,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<tbody>
 		<tr>
 			<td><strong>Thrawn (Rebels)</strong></td>
-			<td>{%- include officer-tunic.html class="white noCenterDart bellSleeves" -%}
+			<td>{%- include officer/tunic.html class="white noCenterDart bellSleeves" -%}
 				<ul>
 					<li>no center dart</li>
 					<li>"bell curved" seam on sleeves</li>
@@ -45,7 +45,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		</tr>
 		<tr>
 			<td><strong>Director Krennic</strong></td>
-			<td>{%- include officer-tunic.html class="white" -%}</td>
+			<td>{%- include officer/tunic.html class="white" -%}</td>
 			<td>{%- include officer/trousers.html class="black" -%}</td>
 			<td>{%- include rank-bar.html rank="W:RRRRRR-BBBBBB:B" color="W" -%}</td>
 			<td>
@@ -56,7 +56,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		</tr>
 		<tr>
 			<td><strong>Grand Moff Tarkin</strong></td>
-			<td>{%- include officer-tunic.html class="olive" -%}</td>
+			<td>{%- include officer/tunic.html class="olive" -%}</td>
 			<td>{%- include officer/trousers.html class="olive" -%}</td>
 			<td>{%- include rank-bar.html rank="O:BBBBBB-RRRYYY:O" color="O" -%}</td>
 			<td></td>
