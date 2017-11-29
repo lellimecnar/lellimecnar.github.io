@@ -35,7 +35,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 				</ul>
 			</td>
 			<td>{%- include officer/trousers.html class="white straight" -%}</td>
-			<td>{%- include rank-bar.html rank="BBBYYY-BBBRRR" -%}</td>
+			<td>{%- include officer/rank-bar.html rank="BBBYYY-BBBRRR" -%}</td>
 			<td>
 				<ul>
 					<li>Golden epaulets</li>
@@ -47,7 +47,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 			<td><strong>Director Krennic</strong></td>
 			<td>{%- include officer/tunic.html class="white" -%}</td>
 			<td>{%- include officer/trousers.html class="black" -%}</td>
-			<td>{%- include rank-bar.html rank="RRRRRR-BBBBBB" -%}</td>
+			<td>{%- include officer/rank-bar.html rank="RRRRRR-BBBBBB" -%}</td>
 			<td>
 				<ul>
 					<li>with cape</li>
@@ -58,7 +58,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 			<td><strong>Grand Moff Tarkin</strong></td>
 			<td>{%- include officer/tunic.html class="olive" -%}</td>
 			<td>{%- include officer/trousers.html class="olive" -%}</td>
-			<td>{%- include rank-bar.html rank="BBBBBB-RRRYYY" -%}</td>
+			<td>{%- include officer/rank-bar.html rank="BBBBBB-RRRYYY" -%}</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -66,10 +66,10 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 			<td>{%- include officer/tunic.html class="black" -%}</td>
 			<td>{%- include officer/trousers.html class="black" -%}</td>
 			<td>
-				{%- include rank-bar.html rank="BBBB" -%}
-				{%- include rank-bar.html rank="BBBBYY" -%}
-				{%- include rank-bar.html rank="RR" -%}
-				{%- include rank-bar.html rank="RRR" -%}
+				{%- include officer/rank-bar.html rank="BBBB" -%}
+				{%- include officer/rank-bar.html rank="BBBBYY" -%}
+				{%- include officer/rank-bar.html rank="RR" -%}
+				{%- include officer/rank-bar.html rank="RRR" -%}
 			</td>
 			<td></td>
 		</tr>
