@@ -13,7 +13,6 @@ I already had the [McCall's M4745 pattern](https://mccallpattern.mccall.com/m474
 I decided that since there are so many different types of Imperial Officer uniforms, and they're mostly identical, I'm going to put together some patterns that I can re-use and make as many of the different varieties as I want.
 
 ## Officer Variations
-The base uniform has the double sided yoke, with the clasp on the wearer's right shoulder, in either black (Staff Officer), white (ISB, Krennic, Thrawn, etc.), or "olive drab" or "fieldgrey" (Line Officer, Tarkin, etc.). The pants match the tunic, except for the white ISB uniforms, in which case, the pants are black. With few exceptions, the pants are all "jodhpur" style.
 
 ### Line Officer
 <figure>
@@ -115,7 +114,8 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Black Straight Trousers<small>(with jack boots)</small></figcaption>
 </figure>
 
-**NOTE:** Warrant Officers have no rank badges.
+#### Rank Bars
+Warrant Officers have no rank bars.
 
 ### ISB Officer
 <figure>
@@ -152,6 +152,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>White Straight Trousers</figcaption>
 </figure>
 
+#### Rank Bars
 <figure>
 	<figcaption>Grand Admiral</figcaption>
 	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
@@ -167,6 +168,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
+#### Rank Bars
 <figure>
 	<figcaption>Director/<wbr/>Admiral/Director</figcaption>
 	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
