@@ -19,115 +19,60 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 {% include officer/tunic.html class="olive" %}
 {% include officer/trousers.html class="olive" %}
 
-<table>
-	<thead>
-		<tr>
-			<th></th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>
-				{%- include officer/rank-bar.html rank="RR-BB" -%}
-				{%- include officer/rank-bar.html rank="BB" -%}
-			</td>
-			<td>Junior Lieutenant</td>
-		</tr>
-		<tr>
-			<td>
-				{%- include officer/rank-bar.html rank="RR-BB" -%}
-				{%- include officer/rank-bar.html rank="BBB" -%}
-				{%- include officer/rank-bar.html rank="BBBB" -%}
-				{%- include officer/rank-bar.html rank="BBBBBB" -%}
-				{%- include officer/rank-bar.html rank="RRB" -%}
-			</td>
-			<td>Lieutenant</td>
-		</tr>
-		<tr>
-			<td>
-				{%- include officer/rank-bar.html rank="RRR-BBB" -%}
-				{%- include officer/rank-bar.html rank="YYYYYY" -%}
-				{%- include officer/rank-bar.html rank="BBBRR" -%}
-			</td>
-			<td>Captain/Commandant</td>
-		</tr>
-		<tr>
-			<td>
-				{%- include officer/rank-bar.html rank="RRR-BBB" -%}
-				{%- include officer/rank-bar.html rank="RR" -%}
-				{%- include officer/rank-bar.html rank="BBBBRR" -%}
-			</td>
-			<td>Commander</td>
-		</tr>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="RRRR-BBBB" -%}</td>
-			<td>Major/Colonel/Commodore</td>
-		</tr>
-		<tr>
-			<td>
-				{%- include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" -%}
-				{%- include officer/rank-bar.html rank="BBBBBB-RRRRRR" -%}
-				{%- include officer/rank-bar.html rank="YYYYRR" -%}
-				{%- include officer/rank-bar.html rank="RRRRRR" -%}
-				{%- include officer/rank-bar.html rank="YYYYYY" -%}
-			</td>
-			<td>General</td>
-		</tr>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="RRRRR-BBBBB" -%}</td>
-			<td>Vice Admiral</td>
-		</tr>
-		<tr>
-			<td>
-				{%- include officer/rank-bar.html rank="RRRRRR-BBBBBB" -%}
-				{%- include officer/rank-bar.html rank="RRRRYY" -%}
-				{%- include officer/rank-bar.html rank="BBRRRR" -%}
-				{%- include officer/rank-bar.html rank="BBBBBB" -%}
-			</td>
-			<td>Admiral</td>
-		</tr>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="BBBYYY-BBBRRR" -%}</td>
-			<td>Grand General</td>
-		</tr>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="BBBBBB-RRRYYY" -%}</td>
-			<td>Grand Moff/Governor</td>
-		</tr>
-	</tbody>
-</table>
+#### Junior Lieutenant
+{% include officer/rank-bar.html rank="RR-BB" %}
+{% include officer/rank-bar.html rank="BB" %}
+
+#### Lieutenant
+{% include officer/rank-bar.html rank="RR-BB" %}
+{% include officer/rank-bar.html rank="BBB" %}
+{% include officer/rank-bar.html rank="BBBB" %}
+{% include officer/rank-bar.html rank="BBBBBB" %}
+{% include officer/rank-bar.html rank="RRB" %}
+
+#### Captain/Commandant
+{% include officer/rank-bar.html rank="RRR-BBB" %}
+{% include officer/rank-bar.html rank="YYYYYY" %}
+{% include officer/rank-bar.html rank="BBBRR" %}
+
+#### Commander
+{% include officer/rank-bar.html rank="RRR-BBB" %}
+{% include officer/rank-bar.html rank="RR" %}
+{% include officer/rank-bar.html rank="BBBBRR" %}
+
+#### Major/Colonel/Commodore
+{% include officer/rank-bar.html rank="RRRR-BBBB" %}
+
+#### General
+{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
+{% include officer/rank-bar.html rank="BBBBBB-RRRRRR" %}
+{% include officer/rank-bar.html rank="YYYYRR" %}
+{% include officer/rank-bar.html rank="RRRRRR" %}
+{% include officer/rank-bar.html rank="YYYYYY" %}
+
+#### Grand General
+{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
+
+#### Vice Admiral
+{% include officer/rank-bar.html rank="RRRRR-BBBBB" %}
+
+#### Admiral
+{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
+{% include officer/rank-bar.html rank="RRRRYY" %}
+{% include officer/rank-bar.html rank="BBRRRR" %}
+{% include officer/rank-bar.html rank="BBBBBB" %}
+
+#### Grand Moff/Governor
+{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
 
 ### Staff Officer
 {% include officer/tunic.html class="black" %}
 {% include officer/trousers.html class="black" %}
 
-<table>
-	<thead>
-		<tr>
-			<th></th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="BBBB" -%}</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="BBBBYY" -%}</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="RR" -%}</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="RRR" -%}</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
+{% include officer/rank-bar.html rank="BBBB" %}
+{% include officer/rank-bar.html rank="BBBBYY" %}
+{% include officer/rank-bar.html rank="RR" %}
+{% include officer/rank-bar.html rank="RRR" %}
 
 ### Warrant Officer
 {% include officer/tunic.html class="black noPockets" %}
@@ -142,81 +87,26 @@ Warrant Officers have no rank badges.
 {% include officer/tunic.html class="white straightYoke noPockets" %}
 {% include officer/trousers.html class="black" %}
 
-<table>
-	<thead>
-		<tr>
-			<th></th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>{% include officer/rank-bar.html rank="RRRBBB" %}</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>{% include officer/rank-bar.html rank="BBBRRR" %}</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
+{% include officer/rank-bar.html rank="RRRBBB" %}
+{% include officer/rank-bar.html rank="BBBRRR" %}
 
 ### ISB Officer (Rogue One)
 {% include officer/tunic.html class="white" %}
 {% include officer/trousers.html class="black" %}
 
-<table>
-	<thead>
-		<tr>
-			<th></th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="RRRB" -%}</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
+{% include officer/rank-bar.html rank="RRRB" %}
 
 ### Grand Admiral (Thrawn - Rebels)
 {% include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" %}
 {% include officer/trousers.html class="white straight" %}
 
-<table>
-	<thead>
-		<tr>
-			<th></th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="BBBYYY-BBBRRR" -%}</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
+{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
 
 ### Director Krennic
 {% include officer/tunic.html class="white" %}
 {% include officer/trousers.html class="black" %}
 
-<table>
-	<thead>
-		<tr>
-			<th></th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>{%- include officer/rank-bar.html rank="RRRRRR-BBBBBB" -%}</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
+{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
 
 ## Materials Required
 
