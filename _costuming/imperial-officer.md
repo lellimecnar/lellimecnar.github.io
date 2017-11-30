@@ -154,7 +154,6 @@ Warrant Officers have no rank bars.
 
 #### Rank Bars
 <figure>
-	<figcaption>Grand Admiral</figcaption>
 	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
 </figure>
 
@@ -170,7 +169,6 @@ Warrant Officers have no rank bars.
 
 #### Rank Bars
 <figure>
-	<figcaption>Director/<wbr/>Admiral/Director</figcaption>
 	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
 </figure>
 
@@ -182,6 +180,7 @@ Warrant Officers have no rank bars.
 | **Trousers** | 3 | – | 1⅛ |
 | **Total** | **5¾** | **3⅛** | **3⅛** |
 
+*[ANH]: A New Hope (Episode IV)
 *[ISB]: Imperial Security Bureau
 *[IOC]: Imperial Officer Corps
 
