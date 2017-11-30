@@ -65,9 +65,7 @@ figure {
 	text-align: center;
 	vertical-align: top;
 	margin: 0 14px 20px;
-}
-
-figure.rankBars {
+	max-width: 33%;
 }
 
 figure figcaption:first-child {
