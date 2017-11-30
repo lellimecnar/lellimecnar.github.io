@@ -24,63 +24,67 @@ I decided that since there are so many different types of Imperial Officer unifo
 	<figcaption>Olive Jodhpur Trousers</figcaption>
 </figure>
 
-#### Rank Bars
+#### Rank Bars - Rogue One
 <figure>
-	<figcaption>Junior Lieutenant (R1)</figcaption>
+	<figcaption>Junior Lieutenant</figcaption>
 	{% include officer/rank-bar.html rank="BB" %}
 </figure>
 <figure>
-	<figcaption>Lieutenant (R1)</figcaption>
+	<figcaption>Lieutenant</figcaption>
 	{% include officer/rank-bar.html rank="RRB" %}
 </figure>
 <figure>
-	<figcaption>Lieutenant (ANH)</figcaption>
-	{% include officer/rank-bar.html rank="BBBBBB" %}
-</figure>
-<figure>
-	<figcaption>Lieutenant (ESB)</figcaption>
-	{% include officer/rank-bar.html rank="RR-BB" %}
-</figure>
-<figure>
-	<figcaption>Captain (R1)</figcaption>
+	<figcaption>Captain</figcaption>
 	{% include officer/rank-bar.html rank="BBBRR" %}
 </figure>
 <figure>
-	<figcaption>Captain (ANH)</figcaption>
-	{% include officer/rank-bar.html rank="YYYYYY" %}
-</figure>
-<figure>
-	<figcaption>Captain (ESB)</figcaption>
-	{% include officer/rank-bar.html rank="RRR-BBB" class="wide" %}
-</figure>
-<figure>
-	<figcaption>General (R1)</figcaption>
+	<figcaption>General</figcaption>
 	{% include officer/rank-bar.html rank="RRRRRR" %}
 	{% include officer/rank-bar.html rank="YYYYYY" %}
 </figure>
 <figure>
-	<figcaption>General (ANH)</figcaption>
-	{% include officer/rank-bar.html rank="RRRRRR" %}
+	<figcaption>Admiral</figcaption>
+	{% include officer/rank-bar.html rank="BBBBBB" %}
 </figure>
+
+#### Rank Bars - A New Hope
 <figure>
-	<figcaption>General (ESB)</figcaption>
-	{% include officer/rank-bar.html rank="RRRR-BBBB" class="wide" %}
-</figure>
-<figure>
-	<figcaption>Admiral (R1)</figcaption>
+	<figcaption>Lieutenant</figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB" %}
 </figure>
 <figure>
-	<figcaption>Admiral (ANH)</figcaption>
-	{% include officer/rank-bar.html rank="BBRRRR" %}
+	<figcaption>Captain</figcaption>
+	{% include officer/rank-bar.html rank="YYYYYY" %}
 </figure>
 <figure>
-	<figcaption>Admiral (ESB)</figcaption>
-	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
+	<figcaption>General</figcaption>
+	{% include officer/rank-bar.html rank="RRRRRR" %}
+</figure>
+<figure>
+	<figcaption>Admiral</figcaption>
+	{% include officer/rank-bar.html rank="BBRRRR" %}
 </figure>
 <figure>
 	<figcaption>Grand Moff/<wbr/>Governor</figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
+</figure>
+
+#### Rank Bars - Empire Strikes Back
+<figure>
+	<figcaption>Lieutenant</figcaption>
+	{% include officer/rank-bar.html rank="RR-BB" %}
+</figure>
+<figure>
+	<figcaption>Captain</figcaption>
+	{% include officer/rank-bar.html rank="RRR-BBB" class="wide" %}
+</figure>
+<figure>
+	<figcaption>General</figcaption>
+	{% include officer/rank-bar.html rank="RRRR-BBBB" class="wide" %}
+</figure>
+<figure>
+	<figcaption>Admiral</figcaption>
+	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
 </figure>
 
 ### Staff Officer
@@ -93,7 +97,13 @@ I decided that since there are so many different types of Imperial Officer unifo
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-#### Rank Bars
+#### Rank Bars - Rogue One
+<figure>
+	<figcaption>Lieutenant (R1)</figcaption>
+	{% include officer/rank-bar.html rank="BBB" %}
+</figure>
+
+#### Rank Bars - A New Hope
 <figure>
 	<figcaption>Ensign (ANH)</figcaption>
 	{% include officer/rank-bar.html rank="RR" %}
@@ -101,10 +111,6 @@ I decided that since there are so many different types of Imperial Officer unifo
 <figure>
 	<figcaption>2nd Lieutenant (ANH)</figcaption>
 	{% include officer/rank-bar.html rank="RRR" class="wide" %}
-</figure>
-<figure>
-	<figcaption>Lieutenant (R1)</figcaption>
-	{% include officer/rank-bar.html rank="BBB" %}
 </figure>
 <figure>
 	<figcaption>Lieutenant (ANH)</figcaption>
@@ -146,17 +152,19 @@ Warrant Officers have no rank bars.
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-#### Rank Bars
+#### Rank Bars - Rogue One
 <figure>
-	<figcaption>Inspector General (R1)</figcaption>
+	<figcaption>Inspector General</figcaption>
 	{% include officer/rank-bar.html rank="RRRB" %}
 </figure>
+
+#### Rank Bars - A New Hope
 <figure>
-	<figcaption>Major (ANH)</figcaption>
+	<figcaption>Major</figcaption>
 	{% include officer/rank-bar.html rank="BBBRRR" %}
 </figure>
 <figure>
-	<figcaption>Colonel (ANH)</figcaption>
+	<figcaption>Colonel</figcaption>
 	{% include officer/rank-bar.html rank="RRRBBB" %}
 </figure>
 
