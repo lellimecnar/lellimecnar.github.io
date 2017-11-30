@@ -93,39 +93,35 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 </figure>
 <figure>
 	{% include officer/tunic.html class="black straightYoke noPockets" %}
-	<figcaption>ANH variation<small>(straight yoke)</small></figcaption>
+	<figcaption>ANH Variation<small>(straight yoke)</small></figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black straight jackBoots" %}
 	<figcaption>Black Straight Trousers<small>(with jack boots)</small></figcaption>
 </figure>
 
-Warrant Officers have no rank badges.
+**NOTE:** Warrant Officers have no rank badges.
 
-### ISB Officer (ANH)
-<figure>
-	{% include officer/tunic.html class="white straightYoke noPockets" %}
-	<figcaption>White Tunic<small>(straight yoke, no cylinder pockets)</small></figcaption>
-</figure>
-<figure>
-	{% include officer/trousers.html class="black" %}
-	<figcaption>Black Jodhpur Trousers</figcaption>
-</figure>
-
-{% include officer/rank-bar.html rank="RRRBBB" %}
-{% include officer/rank-bar.html rank="BBBRRR" %}
-
-### ISB Officer (Rogue One)
+### ISB Officer
 <figure>
 	{% include officer/tunic.html class="white" %}
 	<figcaption>White Tunic</figcaption>
 </figure>
 <figure>
+	{% include officer/tunic.html class="white straightYoke noPockets" %}
+	<figcaption>ANH Variation<small>(straight yoke, no cylinder pockets)</small></figcaption>
+</figure>
+<figure>
 	{% include officer/trousers.html class="black" %}
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
+#### Rogue One Rank Bar
 {% include officer/rank-bar.html rank="RRRB" %}
+
+#### ANH Rank Bars
+{% include officer/rank-bar.html rank="RRRBBB" %}
+{% include officer/rank-bar.html rank="BBBRRR" %}
 
 ### Grand Admiral (Thrawn - Rebels)
 <figure>
