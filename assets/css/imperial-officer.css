@@ -85,7 +85,7 @@ td ul {
 .Tunic:not(.Tunic--epaulets) .Tunic__epaulet,
 .Tunic:not(.Tunic--collarArrows) .Tunic__collarArrow,
 .Trousers--straight .Trousers__flare,
-.Trousers:not(.Trousers--jackBoot) .Trousers__jackBoot,
-.Trousers--jackBoot .Trousers__tallBoot {
+.Trousers:not(.Trousers--jackBoots) .Trousers__jackBoot,
+.Trousers--jackBoots .Trousers__tallBoot {
 	display: none !important;
 }
