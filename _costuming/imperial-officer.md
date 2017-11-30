@@ -26,12 +26,12 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 </figure>
 
 #### Rank Bars
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Junior Lieutenant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RR-BB" %}
 	{% include officer/rank-bar.html rank="BB" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Lieutenant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RR-BB" %}
 	{% include officer/rank-bar.html rank="BBB" %}
@@ -39,23 +39,23 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	{% include officer/rank-bar.html rank="BBBBBB" %}
 	{% include officer/rank-bar.html rank="RRB" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Captain/<wbr/>Commandant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRR-BBB" %}
 	{% include officer/rank-bar.html rank="YYYYYY" %}
 	{% include officer/rank-bar.html rank="BBBRR" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Commander</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRR-BBB" %}
 	{% include officer/rank-bar.html rank="RR" %}
 	{% include officer/rank-bar.html rank="BBBBRR" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Major/<wbr/>Colonel/<wbr/>Commodore</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRR-BBBB" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>General</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
 	{% include officer/rank-bar.html rank="BBBBBB-RRRRRR" %}
@@ -63,22 +63,22 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	{% include officer/rank-bar.html rank="RRRRRR" %}
 	{% include officer/rank-bar.html rank="YYYYYY" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Grand General</strong></figcaption>
 	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Vice Admiral</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRRR-BBBBB" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Admiral</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
 	{% include officer/rank-bar.html rank="RRRRYY" %}
 	{% include officer/rank-bar.html rank="BBRRRR" %}
 	{% include officer/rank-bar.html rank="BBBBBB" %}
 </figure>
-<figure>
+<figure class="rankBars">
 	<figcaption><strong>Grand Moff/<wbr/>Governor</strong></figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
 </figure>
