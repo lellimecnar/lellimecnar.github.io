@@ -111,7 +111,7 @@ I decided that since there are so many different types of Imperial Officer unifo
 </figure>
 <figure>
 	{% include officer/trousers.html class="black straight jackBoots" %}
-	<figcaption>Black Straight Trousers<small>(with jack boots)</small></figcaption>
+	<figcaption>Black Straight Trousers<small>(with jackboots)</small></figcaption>
 </figure>
 
 #### Rank Bars
