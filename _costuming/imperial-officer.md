@@ -16,8 +16,8 @@ I decided that since there are so many different types of Imperial Officer unifo
 The base uniform has the double sided yoke, with the clasp on the wearer's right shoulder, in either black (Staff Officer), white (ISB, Krennic, Thrawn, etc.), or "olive drab" or "fieldgrey" (Line Officer, Tarkin, etc.). The pants match the tunic, except for the white ISB uniforms, in which case, the pants are black. With few exceptions, the pants are all "jodhpur" style.
 
 ### Line Officer
-{%- include officer/tunic.html class="olive" -%}
-{%- include officer/trousers.html class="olive" -%}
+{% include officer/tunic.html class="olive" %}
+{% include officer/trousers.html class="olive" %}
 
 <table>
 	<thead>
@@ -99,8 +99,8 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 </table>
 
 ### Staff Officer
-{%- include officer/tunic.html class="black" -%}
-{%- include officer/trousers.html class="black" -%}
+{% include officer/tunic.html class="black" %}
+{% include officer/trousers.html class="black" %}
 
 <table>
 	<thead>
@@ -130,26 +130,46 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 </table>
 
 ### Warrant Officer
-{%- include officer/tunic.html class="black" -%}
-{%- include officer/trousers.html class="black" -%}
+{% include officer/tunic.html class="black" %}
+{% include officer/trousers.html class="black" %}
 
 Warrant Officers have no rank badges.
 
 ### ISB Officer
-{%- include officer/tunic.html class="white straightYoke" -%}
-{%- include officer/trousers.html class="black" -%}
-{%- include officer/rank-bar.html rank="RRRBBB" -%}
-{%- include officer/rank-bar.html rank="BBBRRR" -%}
-{%- include officer/rank-bar.html rank="RRRB" -%}
+{% include officer/tunic.html class="white straightYoke" %}
+{% include officer/trousers.html class="black" %}
+
+<table>
+	<thead>
+		<tr>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{% include officer/rank-bar.html rank="RRRBBB" %}</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{% include officer/rank-bar.html rank="BBBRRR" %}</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{% include officer/rank-bar.html rank="RRRB" %}</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
 ### Grand Admiral (Thrawn - Rebels)
-{%- include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" -%}
-{%- include officer/trousers.html class="white straight" -%}
+{% include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" %}
+{% include officer/trousers.html class="white straight" %}
 {%- include officer/rank-bar.html rank="BBBYYY-BBBRRR" -%}
 
 ### Director Krennic
-{%- include officer/tunic.html class="white" -%}
-{%- include officer/trousers.html class="black" -%}
+{% include officer/tunic.html class="white" %}
+{% include officer/trousers.html class="black" %}
 {%- include officer/rank-bar.html rank="RRRRRR-BBBBBB" -%}
 
 ## Gathering Materials
