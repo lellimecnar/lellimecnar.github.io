@@ -93,7 +93,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 		</tr>
 		<tr>
 			<td>{%- include officer/rank-bar.html rank="BBBBBB-RRRYYY" -%}</td>
-			<td>Grand Moff</td>
+			<td>Grand Moff/Governor</td>
 		</tr>
 	</tbody>
 </table>
