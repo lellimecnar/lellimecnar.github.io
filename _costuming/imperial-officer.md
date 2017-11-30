@@ -26,6 +26,10 @@ I decided that since there are so many different types of Imperial Officer unifo
 
 #### Rank Bars - Rogue One
 <figure>
+	<figcaption>Science Officer</figcaption>
+	{% include officer/rank-bar.html rank="YYYYR" %}
+</figure>
+<figure>
 	<figcaption>Junior Lieutenant</figcaption>
 	{% include officer/rank-bar.html rank="BB" %}
 </figure>
@@ -48,6 +52,10 @@ I decided that since there are so many different types of Imperial Officer unifo
 </figure>
 
 #### Rank Bars - A New Hope
+<figure>
+	<figcaption>Chief</figcaption>
+	{% include officer/rank-bar.html rank="YYYYRR" %}
+</figure>
 <figure>
 	<figcaption>Lieutenant</figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB" %}
