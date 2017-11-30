@@ -18,11 +18,11 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 ### Line Officer
 <figure>
 	{% include officer/tunic.html class="olive" %}
-	<figcaption></figcaption>
+	<figcaption>Olive Tunic</figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="olive" %}
-	<figcaption></figcaption>
+	<figcaption>Olive Jodhpur Trousers</figcaption>
 </figure>
 
 #### Junior Lieutenant
@@ -74,11 +74,11 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 ### Staff Officer
 <figure>
 	{% include officer/tunic.html class="black" %}
-	<figcaption></figcaption>
+	<figcaption>Black Tunic</figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black" %}
-	<figcaption></figcaption>
+	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
 {% include officer/rank-bar.html rank="BBBB" %}
@@ -89,15 +89,15 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 ### Warrant Officer
 <figure>
 	{% include officer/tunic.html class="black noPockets" %}
-	<figcaption></figcaption>
+	<figcaption>Black Tunic (no cylinder pockets)</figcaption>
 </figure>
 <figure>
 	{% include officer/tunic.html class="black straightYoke noPockets" %}
-	<figcaption></figcaption>
+	<figcaption>ANH variation (straight yoke)</figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black straight jackBoots" %}
-	<figcaption></figcaption>
+	<figcaption>Black Straight Trousers (with jack boots)</figcaption>
 </figure>
 
 Warrant Officers have no rank badges.
@@ -105,11 +105,11 @@ Warrant Officers have no rank badges.
 ### ISB Officer (ANH)
 <figure>
 	{% include officer/tunic.html class="white straightYoke noPockets" %}
-	<figcaption></figcaption>
+	<figcaption>White Tunic (straight yoke, no cylinder pockets)</figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black" %}
-	<figcaption></figcaption>
+	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
 {% include officer/rank-bar.html rank="RRRBBB" %}
@@ -118,11 +118,11 @@ Warrant Officers have no rank badges.
 ### ISB Officer (Rogue One)
 <figure>
 	{% include officer/tunic.html class="white" %}
-	<figcaption></figcaption>
+	<figcaption>White Tunic</figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black" %}
-	<figcaption></figcaption>
+	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
 {% include officer/rank-bar.html rank="RRRB" %}
@@ -130,11 +130,11 @@ Warrant Officers have no rank badges.
 ### Grand Admiral (Thrawn - Rebels)
 <figure>
 	{% include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" %}
-	<figcaption></figcaption>
+	<figcaption>White Tunic (bell curves on sleeves, arrows on collar, epaulets, and no center dart</figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="white straight" %}
-	<figcaption></figcaption>
+	<figcaption>White Straight Trousers</figcaption>
 </figure>
 
 {% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
@@ -142,11 +142,11 @@ Warrant Officers have no rank badges.
 ### Director Krennic
 <figure>
 	{% include officer/tunic.html class="white" %}
-	<figcaption></figcaption>
+	<figcaption>White Tunic</figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black" %}
-	<figcaption></figcaption>
+	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
 {% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
