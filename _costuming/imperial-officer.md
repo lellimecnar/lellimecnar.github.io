@@ -27,60 +27,60 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 
 #### Rank Bars
 <figure>
+	<figcaption><strong>Junior Lieutenant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RR-BB" %}
 	{% include officer/rank-bar.html rank="BB" %}
-	<figcaption>Junior Lieutenant</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>Lieutenant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RR-BB" %}
 	{% include officer/rank-bar.html rank="BBB" %}
 	{% include officer/rank-bar.html rank="BBBB" %}
 	{% include officer/rank-bar.html rank="BBBBBB" %}
 	{% include officer/rank-bar.html rank="RRB" %}
-	<figcaption>Lieutenant</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>Captain/Commandant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRR-BBB" %}
 	{% include officer/rank-bar.html rank="YYYYYY" %}
 	{% include officer/rank-bar.html rank="BBBRR" %}
-	<figcaption>Captain/Commandant</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>Commander</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRR-BBB" %}
 	{% include officer/rank-bar.html rank="RR" %}
 	{% include officer/rank-bar.html rank="BBBBRR" %}
-	<figcaption>Commander</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>Major/Colonel/Commodore</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRR-BBBB" %}
-	<figcaption>Major/Colonel/Commodore</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>General</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
 	{% include officer/rank-bar.html rank="BBBBBB-RRRRRR" %}
 	{% include officer/rank-bar.html rank="YYYYRR" %}
 	{% include officer/rank-bar.html rank="RRRRRR" %}
 	{% include officer/rank-bar.html rank="YYYYYY" %}
-	<figcaption>General</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>Grand General</strong></figcaption>
 	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
-	<figcaption>Grand General</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>Vice Admiral</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRRR-BBBBB" %}
-	<figcaption>Vice Admiral</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>Admiral</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
 	{% include officer/rank-bar.html rank="RRRRYY" %}
 	{% include officer/rank-bar.html rank="BBRRRR" %}
 	{% include officer/rank-bar.html rank="BBBBBB" %}
-	<figcaption>Admiral</figcaption>
 </figure>
 <figure>
+	<figcaption><strong>Grand Moff/Governor</strong></figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
-	<figcaption>Grand Moff/Governor</figcaption>
 </figure>
 
 ### Staff Officer
@@ -137,8 +137,10 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 </figure>
 
 #### ANH Rank Bar Variations
-{% include officer/rank-bar.html rank="RRRBBB" %}
-{% include officer/rank-bar.html rank="BBBRRR" %}
+<figure>
+	{% include officer/rank-bar.html rank="RRRBBB" %}
+	{% include officer/rank-bar.html rank="BBBRRR" %}
+</figure>
 
 ### Grand Admiral (Thrawn - Rebels)
 <figure>
