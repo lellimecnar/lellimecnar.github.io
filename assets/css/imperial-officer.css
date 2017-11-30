@@ -13,6 +13,10 @@
 	margin-top: 8px;
 }
 
+.RankBar--wide .RankBar__tile {
+	margin: 0 3px;
+}
+
 .RankBar__row {
 	display: block;
 	white-space: nowrap;
