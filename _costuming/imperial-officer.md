@@ -51,7 +51,7 @@ I decided that since there are so many different types of Imperial Officer unifo
 </figure>
 <figure>
 	<figcaption>Captain (ESB)</figcaption>
-	{% include officer/rank-bar.html rank="RRR-BBB" spacing="wide" %}
+	{% include officer/rank-bar.html rank="RRR-BBB" class="wide" %}
 </figure>
 <figure>
 	<figcaption>General (R1)</figcaption>
@@ -64,7 +64,7 @@ I decided that since there are so many different types of Imperial Officer unifo
 </figure>
 <figure>
 	<figcaption>General (ESB)</figcaption>
-	{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
+	{% include officer/rank-bar.html rank="RRRR-BBBB" class="wide" %}
 </figure>
 <figure>
 	<figcaption>Admiral (R1)</figcaption>
@@ -100,7 +100,7 @@ I decided that since there are so many different types of Imperial Officer unifo
 </figure>
 <figure>
 	<figcaption>2nd Lieutenant (ANH)</figcaption>
-	{% include officer/rank-bar.html rank="RRR" spacing="wide" %}
+	{% include officer/rank-bar.html rank="RRR" class="wide" %}
 </figure>
 <figure>
 	<figcaption>Lieutenant (R1)</figcaption>
