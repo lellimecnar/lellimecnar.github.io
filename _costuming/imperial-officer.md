@@ -27,27 +27,27 @@ I decided that since there are so many different types of Imperial Officer unifo
 #### Rank Bars
 <figure>
 	<figcaption><strong>Junior Lieutenant</strong></figcaption>
-	{% include officer/rank-bar.html rank="RR-BB" %}
 	{% include officer/rank-bar.html rank="BB" %}
+	{% include officer/rank-bar.html rank="RR-BB" %}
 </figure>
 <figure>
 	<figcaption><strong>Lieutenant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RR-BB" %}
+	{% include officer/rank-bar.html rank="RRB" %}
 	{% include officer/rank-bar.html rank="BBB" %}
 	{% include officer/rank-bar.html rank="BBBB" %}
 	{% include officer/rank-bar.html rank="BBBBBB" %}
-	{% include officer/rank-bar.html rank="RRB" %}
 </figure>
 <figure>
 	<figcaption><strong>Captain/<wbr/>Commandant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRR-BBB" %}
-	{% include officer/rank-bar.html rank="YYYYYY" %}
 	{% include officer/rank-bar.html rank="BBBRR" %}
+	{% include officer/rank-bar.html rank="YYYYYY" %}
 </figure>
 <figure>
 	<figcaption><strong>Commander</strong></figcaption>
-	{% include officer/rank-bar.html rank="RRR-BBB" %}
 	{% include officer/rank-bar.html rank="RR" %}
+	{% include officer/rank-bar.html rank="RRR-BBB" %}
 	{% include officer/rank-bar.html rank="BBBBRR" %}
 </figure>
 <figure>
@@ -58,8 +58,8 @@ I decided that since there are so many different types of Imperial Officer unifo
 	<figcaption><strong>General</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
 	{% include officer/rank-bar.html rank="BBBBBB-RRRRRR" %}
-	{% include officer/rank-bar.html rank="YYYYRR" %}
 	{% include officer/rank-bar.html rank="RRRRRR" %}
+	{% include officer/rank-bar.html rank="YYYYRR" %}
 	{% include officer/rank-bar.html rank="YYYYYY" %}
 </figure>
 <figure>
@@ -94,10 +94,10 @@ I decided that since there are so many different types of Imperial Officer unifo
 
 #### Rank Bars
 <figure>
-	{% include officer/rank-bar.html rank="BBBB" %}
-	{% include officer/rank-bar.html rank="BBBBYY" %}
 	{% include officer/rank-bar.html rank="RR" %}
 	{% include officer/rank-bar.html rank="RRR" %}
+	{% include officer/rank-bar.html rank="BBBB" %}
+	{% include officer/rank-bar.html rank="BBBBYY" %}
 </figure>
 
 ### Warrant Officer
