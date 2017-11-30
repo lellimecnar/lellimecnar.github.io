@@ -64,19 +64,18 @@ figure {
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
-	width: 24%;
-	margin-bottom: 20px;
+	width: auto;
+	margin: 0 14px 20px;
 }
 
 figure.rankBars {
-	width: auto;
-	margin: 0 14px 14px;
 }
 
-figure.rankBars figcaption {
+figure figcaption:first-child {
 	border-bottom: 2px solid #ccc;
 	padding: 0 8px;
 	margin-bottom: 8px;
+	font-weight: bold;
 }
 
 figcaption small {
