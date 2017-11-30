@@ -16,8 +16,14 @@ I decided that since there are so many different types of Imperial Officer unifo
 The base uniform has the double sided yoke, with the clasp on the wearer's right shoulder, in either black (Staff Officer), white (ISB, Krennic, Thrawn, etc.), or "olive drab" or "fieldgrey" (Line Officer, Tarkin, etc.). The pants match the tunic, except for the white ISB uniforms, in which case, the pants are black. With few exceptions, the pants are all "jodhpur" style.
 
 ### Line Officer
-{% include officer/tunic.html class="olive" %}
-{% include officer/trousers.html class="olive" %}
+<figure>
+	{% include officer/tunic.html class="olive" %}
+	<figcaption></figcaption>
+</figure>
+<figure>
+	{% include officer/trousers.html class="olive" %}
+	<figcaption></figcaption>
+</figure>
 
 #### Junior Lieutenant
 {% include officer/rank-bar.html rank="RR-BB" %}
@@ -66,8 +72,14 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 {% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
 
 ### Staff Officer
-{% include officer/tunic.html class="black" %}
-{% include officer/trousers.html class="black" %}
+<figure>
+	{% include officer/tunic.html class="black" %}
+	<figcaption></figcaption>
+</figure>
+<figure>
+	{% include officer/trousers.html class="black" %}
+	<figcaption></figcaption>
+</figure>
 
 {% include officer/rank-bar.html rank="BBBB" %}
 {% include officer/rank-bar.html rank="BBBBYY" %}
@@ -75,36 +87,67 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 {% include officer/rank-bar.html rank="RRR" %}
 
 ### Warrant Officer
-{% include officer/tunic.html class="black noPockets" %}
-{% include officer/trousers.html class="black straight jackBoots" %}
+<figure>
+	{% include officer/tunic.html class="black noPockets" %}
+	<figcaption></figcaption>
+</figure>
+<figure>
+	{% include officer/tunic.html class="black straightYoke noPockets" %}
+	<figcaption></figcaption>
+</figure>
+<figure>
+	{% include officer/trousers.html class="black straight jackBoots" %}
+	<figcaption></figcaption>
+</figure>
 
 Warrant Officers have no rank badges.
 
-#### ANH Version
-{% include officer/tunic.html class="black straightYoke noPockets" %}
-
 ### ISB Officer (ANH)
-{% include officer/tunic.html class="white straightYoke noPockets" %}
-{% include officer/trousers.html class="black" %}
+<figure>
+	{% include officer/tunic.html class="white straightYoke noPockets" %}
+	<figcaption></figcaption>
+</figure>
+<figure>
+	{% include officer/trousers.html class="black" %}
+	<figcaption></figcaption>
+</figure>
 
 {% include officer/rank-bar.html rank="RRRBBB" %}
 {% include officer/rank-bar.html rank="BBBRRR" %}
 
 ### ISB Officer (Rogue One)
-{% include officer/tunic.html class="white" %}
-{% include officer/trousers.html class="black" %}
+<figure>
+	{% include officer/tunic.html class="white" %}
+	<figcaption></figcaption>
+</figure>
+<figure>
+	{% include officer/trousers.html class="black" %}
+	<figcaption></figcaption>
+</figure>
 
 {% include officer/rank-bar.html rank="RRRB" %}
 
 ### Grand Admiral (Thrawn - Rebels)
-{% include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" %}
-{% include officer/trousers.html class="white straight" %}
+<figure>
+	{% include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" %}
+	<figcaption></figcaption>
+</figure>
+<figure>
+	{% include officer/trousers.html class="white straight" %}
+	<figcaption></figcaption>
+</figure>
 
 {% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
 
 ### Director Krennic
-{% include officer/tunic.html class="white" %}
-{% include officer/trousers.html class="black" %}
+<figure>
+	{% include officer/tunic.html class="white" %}
+	<figcaption></figcaption>
+</figure>
+<figure>
+	{% include officer/trousers.html class="black" %}
+	<figcaption></figcaption>
+</figure>
 
 {% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
 
