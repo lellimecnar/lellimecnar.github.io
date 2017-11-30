@@ -130,10 +130,13 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 </table>
 
 ### Warrant Officer
-{% include officer/tunic.html class="black" %}
-{% include officer/trousers.html class="black" %}
+{% include officer/tunic.html class="black noPockets" %}
+{% include officer/trousers.html class="black straight jackBoots" %}
 
 Warrant Officers have no rank badges.
+
+#### ANH Version
+{% include officer/tunic.html class="black straightYoke noPockets" %}
 
 ### ISB Officer (ANH)
 {% include officer/tunic.html class="white straightYoke noPockets" %}
