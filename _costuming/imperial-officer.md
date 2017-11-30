@@ -198,7 +198,9 @@ Warrant Officers have no rank bars.
 | **Trousers** | 3 | – | 1⅛ |
 | **Total** | **5¾** | **3⅛** | **3⅛** |
 
+*[R1]: Rogue One
 *[ANH]: A New Hope (Episode IV)
+*[ESB]: Empire Strikes Back (Episode V)
 *[ISB]: Imperial Security Bureau
 *[IOC]: Imperial Officer Corps
 
