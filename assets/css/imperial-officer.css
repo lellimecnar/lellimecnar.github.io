@@ -14,7 +14,7 @@
 }
 
 .RankBar--wide .RankBar__tile {
-	margin: 0 3px;
+	margin: 2px 3px !important;
 }
 
 .RankBar__row {
