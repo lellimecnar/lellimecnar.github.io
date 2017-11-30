@@ -116,10 +116,9 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-#### Rogue One Rank Bar
 {% include officer/rank-bar.html rank="RRRB" %}
 
-#### ANH Rank Bars
+#### ANH Rank Bar Variations
 {% include officer/rank-bar.html rank="RRRBBB" %}
 {% include officer/rank-bar.html rank="BBBRRR" %}
 
