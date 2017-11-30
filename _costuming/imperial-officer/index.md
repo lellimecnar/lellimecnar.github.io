@@ -25,6 +25,8 @@ For a more detailed description and comparison of these variations, [see here]({
 | **Trousers** | 3 | – | 1⅛ |
 | **Total** | **5¾** | **3⅛** | **3⅛** |
 
+{% include officer/abbreviations.md %}
+
 <script type="text/javascript" src="{{ '/assets/js/imperial-officer.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
 {% include comments.html %}
