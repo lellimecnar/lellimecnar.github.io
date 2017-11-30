@@ -135,7 +135,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 
 Warrant Officers have no rank badges.
 
-### ISB Officer
+### ISB Officer (ANH)
 {% include officer/tunic.html class="white straightYoke noPockets" %}
 {% include officer/trousers.html class="black" %}
 
@@ -155,8 +155,23 @@ Warrant Officers have no rank badges.
 			<td>{% include officer/rank-bar.html rank="BBBRRR" %}</td>
 			<td></td>
 		</tr>
+	</tbody>
+</table>
+
+### ISB Officer (Rogue One)
+{% include officer/tunic.html class="white" %}
+{% include officer/trousers.html class="black" %}
+
+<table>
+	<thead>
 		<tr>
-			<td>{% include officer/rank-bar.html rank="RRRB" %}</td>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{%- include officer/rank-bar.html rank="RRRB" -%}</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -165,14 +180,42 @@ Warrant Officers have no rank badges.
 ### Grand Admiral (Thrawn - Rebels)
 {% include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" %}
 {% include officer/trousers.html class="white straight" %}
-{%- include officer/rank-bar.html rank="BBBYYY-BBBRRR" -%}
+
+<table>
+	<thead>
+		<tr>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{%- include officer/rank-bar.html rank="BBBYYY-BBBRRR" -%}</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
 ### Director Krennic
 {% include officer/tunic.html class="white" %}
 {% include officer/trousers.html class="black" %}
-{%- include officer/rank-bar.html rank="RRRRRR-BBBBBB" -%}
 
-## Gathering Materials
+<table>
+	<thead>
+		<tr>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{%- include officer/rank-bar.html rank="RRRRRR-BBBBBB" -%}</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## Materials Required
 
 |  | **Fabric** | **Lining** | **Interfacing** |
 |---|---|---|---|
