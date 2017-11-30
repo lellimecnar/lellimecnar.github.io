@@ -84,8 +84,14 @@ td ul {
 .Tunic:not(.Tunic--bellSleeves) .Tunic__bellSeam,
 .Tunic:not(.Tunic--epaulets) .Tunic__epaulet,
 .Tunic:not(.Tunic--collarArrows) .Tunic__collarArrow,
+.Tunic:not(.Tunic--straightYoke) .Tunic__straightYoke,
 .Trousers--straight .Trousers__flare,
 .Trousers:not(.Trousers--jackBoots) .Trousers__jackBoot,
 .Trousers--jackBoots .Trousers__tallBoot {
 	display: none !important;
+}
+
+.Tunic--straightYoke .Tunic__shoulderSeam {
+	stroke: #7f7f7f;
+	opacity: 0.6;
 }
