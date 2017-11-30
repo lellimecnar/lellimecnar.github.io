@@ -80,6 +80,7 @@ td ul {
 }
 
 .Tunic--noCenterDart .Tunic__centerDart,
+.Tunic--noPockets .Tunic__pocket,
 .Tunic:not(.Tunic--bellSleeves) .Tunic__bellSeam,
 .Tunic:not(.Tunic--epaulets) .Tunic__epaulet,
 .Tunic:not(.Tunic--collarArrows) .Tunic__collarArrow,
