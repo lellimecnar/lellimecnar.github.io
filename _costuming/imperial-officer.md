@@ -136,7 +136,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 Warrant Officers have no rank badges.
 
 ### ISB Officer
-{% include officer/tunic.html class="white straightYoke" %}
+{% include officer/tunic.html class="white straightYoke noPockets" %}
 {% include officer/trousers.html class="black" %}
 
 <table>
