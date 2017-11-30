@@ -59,6 +59,12 @@ td ul {
 	padding-left: 10px;
 }
 
+figure {
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+}
+
 .Tunic,
 .Trousers{
 	height: 170px;
