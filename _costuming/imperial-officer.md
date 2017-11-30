@@ -65,7 +65,7 @@ I decided that since there are so many different types of Imperial Officer unifo
 	{% include officer/rank-bar.html rank="BBRRRR" %}
 </figure>
 <figure>
-	<figcaption>Grand Moff/<wbr/>Governor</figcaption>
+	<figcaption>Grand Moff</figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
 </figure>
 
@@ -99,25 +99,25 @@ I decided that since there are so many different types of Imperial Officer unifo
 
 #### Rank Bars - Rogue One
 <figure>
-	<figcaption>Lieutenant (R1)</figcaption>
+	<figcaption>Lieutenant</figcaption>
 	{% include officer/rank-bar.html rank="BBB" %}
 </figure>
 
 #### Rank Bars - A New Hope
 <figure>
-	<figcaption>Ensign (ANH)</figcaption>
+	<figcaption>Ensign</figcaption>
 	{% include officer/rank-bar.html rank="RR" %}
 </figure>
 <figure>
-	<figcaption>2nd Lieutenant (ANH)</figcaption>
+	<figcaption>2nd Lieutenant</figcaption>
 	{% include officer/rank-bar.html rank="RRR" class="wide" %}
 </figure>
 <figure>
-	<figcaption>Lieutenant (ANH)</figcaption>
+	<figcaption>Lieutenant</figcaption>
 	{% include officer/rank-bar.html rank="BBBB" %}
 </figure>
 <figure>
-	<figcaption>Commander (ANH)</figcaption>
+	<figcaption>Commander</figcaption>
 	{% include officer/rank-bar.html rank="BBBBYY" %}
 </figure>
 
