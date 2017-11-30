@@ -92,6 +92,6 @@ td ul {
 }
 
 .Tunic--straightYoke .Tunic__shoulderSeam {
-	stroke: #7f7f7f;
+	stroke: #7f7f7f !important;
 	opacity: 0.6;
 }
