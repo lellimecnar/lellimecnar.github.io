@@ -65,6 +65,12 @@ figure {
 	width: 25%;
 }
 
+figcaption small {
+	display: block;
+	line-height: 1em;
+	opacity: 0.6;
+}
+
 .Tunic,
 .Trousers{
 	height: 170px;
