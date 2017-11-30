@@ -131,13 +131,13 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-<figure>
+#### Rank Bars
+<figure class="rankBars">
+	<figcaption>Rogue One Variation</figcaption>
 	{% include officer/rank-bar.html rank="RRRB" %}
-	<figcaption>Rogue One Rank Bar</figcaption>
 </figure>
-
-#### ANH Rank Bar Variations
-<figure>
+<figure class="rankBars">
+	<figcaption>ANH Variation</figcaption>
 	{% include officer/rank-bar.html rank="RRRBBB" %}
 	{% include officer/rank-bar.html rank="BBBRRR" %}
 </figure>
@@ -152,9 +152,9 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>White Straight Trousers</figcaption>
 </figure>
 
-<figure>
+<figure class="rankBars">
+	<figcaption>Grand Admiral</figcaption>
 	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
-	<figcaption>Grand Admiral Rank Bar</figcaption>
 </figure>
 
 ### Director Krennic
@@ -167,9 +167,9 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-<figure>
+<figure class="rankBars">
+	<figcaption>Director/<wbr/>Admiral/Director</figcaption>
 	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
-	<figcaption>Director/<wbr/>Admiral Rank Bar</figcaption>
 </figure>
 
 ## Materials Required
