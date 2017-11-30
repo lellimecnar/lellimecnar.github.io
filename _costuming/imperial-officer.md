@@ -26,59 +26,60 @@ I decided that since there are so many different types of Imperial Officer unifo
 
 #### Rank Bars
 <figure>
-	<figcaption><strong>Junior Lieutenant</strong></figcaption>
+	<figcaption>Junior Lieutenant (R1)</figcaption>
 	{% include officer/rank-bar.html rank="BB" %}
-	{% include officer/rank-bar.html rank="RR-BB" %}
 </figure>
 <figure>
-	<figcaption><strong>Lieutenant</strong></figcaption>
-	{% include officer/rank-bar.html rank="RR-BB" %}
+	<figcaption>Lieutenant (R1)</figcaption>
 	{% include officer/rank-bar.html rank="RRB" %}
-	{% include officer/rank-bar.html rank="BBB" %}
-	{% include officer/rank-bar.html rank="BBBB" %}
+</figure>
+<figure>
+	<figcaption>Lieutenant (ANH)</figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB" %}
 </figure>
 <figure>
-	<figcaption><strong>Captain/<wbr/>Commandant</strong></figcaption>
-	{% include officer/rank-bar.html rank="RRR-BBB" %}
+	<figcaption>Lieutenant (ESB)</figcaption>
+	{% include officer/rank-bar.html rank="RR-BB" %}
+</figure>
+<figure>
+	<figcaption>Captain (R1)</figcaption>
 	{% include officer/rank-bar.html rank="BBBRR" %}
+</figure>
+<figure>
+	<figcaption>Captain (ANH)</figcaption>
 	{% include officer/rank-bar.html rank="YYYYYY" %}
 </figure>
 <figure>
-	<figcaption><strong>Commander</strong></figcaption>
-	{% include officer/rank-bar.html rank="RR" %}
-	{% include officer/rank-bar.html rank="RRR-BBB" %}
-	{% include officer/rank-bar.html rank="BBBBRR" %}
+	<figcaption>Captain (ESB)</figcaption>
+	{% include officer/rank-bar.html rank="RRR-BBB" spacing="wide" %}
 </figure>
 <figure>
-	<figcaption><strong>Major/<wbr/>Colonel/<wbr/>Commodore</strong></figcaption>
-	{% include officer/rank-bar.html rank="RRRR-BBBB" %}
-</figure>
-<figure>
-	<figcaption><strong>General</strong></figcaption>
-	{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
-	{% include officer/rank-bar.html rank="BBBBBB-RRRRRR" %}
+	<figcaption>General (R1)</figcaption>
 	{% include officer/rank-bar.html rank="RRRRRR" %}
-	{% include officer/rank-bar.html rank="YYYYRR" %}
 	{% include officer/rank-bar.html rank="YYYYYY" %}
 </figure>
 <figure>
-	<figcaption><strong>Grand General</strong></figcaption>
-	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
+	<figcaption>General (ANH)</figcaption>
+	{% include officer/rank-bar.html rank="RRRRRR" %}
 </figure>
 <figure>
-	<figcaption><strong>Vice Admiral</strong></figcaption>
-	{% include officer/rank-bar.html rank="RRRRR-BBBBB" %}
+	<figcaption>General (ESB)</figcaption>
+	{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
 </figure>
 <figure>
-	<figcaption><strong>Admiral</strong></figcaption>
-	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
-	{% include officer/rank-bar.html rank="RRRRYY" %}
-	{% include officer/rank-bar.html rank="BBRRRR" %}
+	<figcaption>Admiral (R1)</figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB" %}
 </figure>
 <figure>
-	<figcaption><strong>Grand Moff/<wbr/>Governor</strong></figcaption>
+	<figcaption>Admiral (ANH)</figcaption>
+	{% include officer/rank-bar.html rank="BBRRRR" %}
+</figure>
+<figure>
+	<figcaption>Admiral (ESB)</figcaption>
+	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
+</figure>
+<figure>
+	<figcaption>Grand Moff/<wbr/>Governor</figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
 </figure>
 
@@ -94,9 +95,23 @@ I decided that since there are so many different types of Imperial Officer unifo
 
 #### Rank Bars
 <figure>
+	<figcaption>Ensign (ANH)</figcaption>
 	{% include officer/rank-bar.html rank="RR" %}
-	{% include officer/rank-bar.html rank="RRR" %}
+</figure>
+<figure>
+	<figcaption>2nd Lieutenant (ANH)</figcaption>
+	{% include officer/rank-bar.html rank="RRR" spacing="wide" %}
+</figure>
+<figure>
+	<figcaption>Lieutenant (R1)</figcaption>
+	{% include officer/rank-bar.html rank="BBB" %}
+</figure>
+<figure>
+	<figcaption>Lieutenant (ANH)</figcaption>
 	{% include officer/rank-bar.html rank="BBBB" %}
+</figure>
+<figure>
+	<figcaption>Commander (ANH)</figcaption>
 	{% include officer/rank-bar.html rank="BBBBYY" %}
 </figure>
 
@@ -107,7 +122,7 @@ I decided that since there are so many different types of Imperial Officer unifo
 </figure>
 <figure>
 	{% include officer/tunic.html class="black straightYoke noPockets" %}
-	<figcaption>ANH Variation<small>(straight yoke)</small></figcaption>
+	<figcaption>Black Tunic (ANH)<small>(straight yoke)</small></figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black straight jackBoots" %}
@@ -124,7 +139,7 @@ Warrant Officers have no rank bars.
 </figure>
 <figure>
 	{% include officer/tunic.html class="white straightYoke noPockets" %}
-	<figcaption>ANH Variation<small>(straight yoke,<wbr/> no cylinder pockets)</small></figcaption>
+	<figcaption>White Tunic (ANH)<small>(straight yoke,<wbr/> no cylinder pockets)</small></figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black" %}
@@ -133,13 +148,16 @@ Warrant Officers have no rank bars.
 
 #### Rank Bars
 <figure>
-	<figcaption>Rogue One Variation</figcaption>
+	<figcaption>Inspector General (R1)</figcaption>
 	{% include officer/rank-bar.html rank="RRRB" %}
 </figure>
 <figure>
-	<figcaption>ANH Variation</figcaption>
-	{% include officer/rank-bar.html rank="RRRBBB" %}
+	<figcaption>Major (ANH)</figcaption>
 	{% include officer/rank-bar.html rank="BBBRRR" %}
+</figure>
+<figure>
+	<figcaption>Colonel (ANH)</figcaption>
+	{% include officer/rank-bar.html rank="RRRBBB" %}
 </figure>
 
 ### Grand Admiral (Thrawn - Rebels)
