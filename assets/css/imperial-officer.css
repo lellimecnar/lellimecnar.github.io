@@ -62,6 +62,7 @@ td ul {
 figure {
 	display: inline-block;
 	text-align: center;
+	vertical-align: top;
 	width: 25%;
 }
 
