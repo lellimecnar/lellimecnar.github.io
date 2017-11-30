@@ -67,16 +67,19 @@ figure {
 	margin-bottom: 20px;
 }
 
+figure.rankBars {
+	width: 70px;
+	margin: 0 14px 14px;
+}
+
+figure.rankBars figcaption {
+	
+}
+
 figcaption small {
 	display: block;
 	line-height: 1em;
 	opacity: 0.6;
-}
-
-figcaption strong {
-	display: block;
-	border-bottom: 2px solid #000;
-	margin-bottom: 8px;
 }
 
 .Tunic,
