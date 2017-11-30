@@ -68,14 +68,19 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 			<td>
 				<table>
 					<tr>
-						<td>{%- include officer/rank-bar.html rank="BB" -%}</td>
+						<td>
+							{%- include officer/rank-bar.html rank="RR-BB" -%}
+							{%- include officer/rank-bar.html rank="BB" -%}
+						</td>
 						<td>Junior Lieutenant</td>
 					</tr>
 					<tr>
 						<td>
+							{%- include officer/rank-bar.html rank="RR-BB" -%}
 							{%- include officer/rank-bar.html rank="BBB" -%}
 							{%- include officer/rank-bar.html rank="BBBB" -%}
 							{%- include officer/rank-bar.html rank="BBBBBB" -%}
+							{%- include officer/rank-bar.html rank="RRB" -%}
 						</td>
 						<td>Lieutenant</td>
 					</tr>
