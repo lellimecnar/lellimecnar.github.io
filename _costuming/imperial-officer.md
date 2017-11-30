@@ -89,15 +89,15 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 ### Warrant Officer
 <figure>
 	{% include officer/tunic.html class="black noPockets" %}
-	<figcaption>Black Tunic (no cylinder pockets)</figcaption>
+	<figcaption>Black Tunic<small>(no cylinder pockets)</small></figcaption>
 </figure>
 <figure>
 	{% include officer/tunic.html class="black straightYoke noPockets" %}
-	<figcaption>ANH variation (straight yoke)</figcaption>
+	<figcaption>ANH variation<small>(straight yoke)</small></figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black straight jackBoots" %}
-	<figcaption>Black Straight Trousers (with jack boots)</figcaption>
+	<figcaption>Black Straight Trousers<small>(with jack boots)</small></figcaption>
 </figure>
 
 Warrant Officers have no rank badges.
@@ -105,7 +105,7 @@ Warrant Officers have no rank badges.
 ### ISB Officer (ANH)
 <figure>
 	{% include officer/tunic.html class="white straightYoke noPockets" %}
-	<figcaption>White Tunic (straight yoke, no cylinder pockets)</figcaption>
+	<figcaption>White Tunic<small>(straight yoke, no cylinder pockets)</small></figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="black" %}
@@ -130,7 +130,7 @@ Warrant Officers have no rank badges.
 ### Grand Admiral (Thrawn - Rebels)
 <figure>
 	{% include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" %}
-	<figcaption>White Tunic (bell curves on sleeves, arrows on collar, epaulets, and no center dart</figcaption>
+	<figcaption>White Tunic<small>(bell curves on sleeves, arrows on collar, epaulets, and no center dart)</small></figcaption>
 </figure>
 <figure>
 	{% include officer/trousers.html class="white straight" %}
