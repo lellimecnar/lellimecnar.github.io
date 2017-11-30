@@ -40,7 +40,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	{% include officer/rank-bar.html rank="RRB" %}
 </figure>
 <figure>
-	<figcaption><strong>Captain/Commandant</strong></figcaption>
+	<figcaption><strong>Captain/<wbr/>Commandant</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRR-BBB" %}
 	{% include officer/rank-bar.html rank="YYYYYY" %}
 	{% include officer/rank-bar.html rank="BBBRR" %}
@@ -52,7 +52,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	{% include officer/rank-bar.html rank="BBBBRR" %}
 </figure>
 <figure>
-	<figcaption><strong>Major/Colonel/Commodore</strong></figcaption>
+	<figcaption><strong>Major/<wbr/>Colonel/<wbr/>Commodore</strong></figcaption>
 	{% include officer/rank-bar.html rank="RRRR-BBBB" %}
 </figure>
 <figure>
@@ -79,7 +79,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	{% include officer/rank-bar.html rank="BBBBBB" %}
 </figure>
 <figure>
-	<figcaption><strong>Grand Moff/Governor</strong></figcaption>
+	<figcaption><strong>Grand Moff/<wbr/>Governor</strong></figcaption>
 	{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
 </figure>
 
@@ -169,7 +169,7 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 
 <figure>
 	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
-	<figcaption>Director/Admiral Rank Bar</figcaption>
+	<figcaption>Director/<wbr/>Admiral Rank Bar</figcaption>
 </figure>
 
 ## Materials Required
