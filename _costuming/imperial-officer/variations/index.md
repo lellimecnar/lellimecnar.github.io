@@ -196,10 +196,6 @@ Warrant Officers have no rank bars.
 	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
 </figure>
 
-*[R1]: Rogue One
-*[ANH]: A New Hope (Episode IV)
-*[ESB]: Empire Strikes Back (Episode V)
-*[ISB]: Imperial Security Bureau
-*[IOC]: Imperial Officer Corps
+{% include officer/abbreviations.md %}
 
 {% include comments.html %}
