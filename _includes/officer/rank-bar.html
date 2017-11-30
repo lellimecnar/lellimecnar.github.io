@@ -1,4 +1,5 @@
-<div class="RankBar">
+{% assign classes = include.class | split: " " %}
+<div class="RankBar{% for cls in classes %} RankBar--{{ cls }}{% endfor %}">
 	{%- assign rows = include.rank | split: "-" -%}
 	{%- for row in rows -%}
 		<div class="RankBar__row">
