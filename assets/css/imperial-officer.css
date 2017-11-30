@@ -69,12 +69,14 @@ figure {
 }
 
 figure.rankBars {
-	width: 70px;
+	width: auto;
 	margin: 0 14px 14px;
 }
 
 figure.rankBars figcaption {
-	
+	border-bottom: 2px solid #ccc;
+	padding: 0 8px;
+	margin-bottom: 8px;
 }
 
 figcaption small {
