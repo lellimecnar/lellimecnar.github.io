@@ -25,51 +25,63 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Olive Jodhpur Trousers</figcaption>
 </figure>
 
-#### Junior Lieutenant
-{% include officer/rank-bar.html rank="RR-BB" %}
-{% include officer/rank-bar.html rank="BB" %}
-
-#### Lieutenant
-{% include officer/rank-bar.html rank="RR-BB" %}
-{% include officer/rank-bar.html rank="BBB" %}
-{% include officer/rank-bar.html rank="BBBB" %}
-{% include officer/rank-bar.html rank="BBBBBB" %}
-{% include officer/rank-bar.html rank="RRB" %}
-
-#### Captain/Commandant
-{% include officer/rank-bar.html rank="RRR-BBB" %}
-{% include officer/rank-bar.html rank="YYYYYY" %}
-{% include officer/rank-bar.html rank="BBBRR" %}
-
-#### Commander
-{% include officer/rank-bar.html rank="RRR-BBB" %}
-{% include officer/rank-bar.html rank="RR" %}
-{% include officer/rank-bar.html rank="BBBBRR" %}
-
-#### Major/Colonel/Commodore
-{% include officer/rank-bar.html rank="RRRR-BBBB" %}
-
-#### General
-{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
-{% include officer/rank-bar.html rank="BBBBBB-RRRRRR" %}
-{% include officer/rank-bar.html rank="YYYYRR" %}
-{% include officer/rank-bar.html rank="RRRRRR" %}
-{% include officer/rank-bar.html rank="YYYYYY" %}
-
-#### Grand General
-{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
-
-#### Vice Admiral
-{% include officer/rank-bar.html rank="RRRRR-BBBBB" %}
-
-#### Admiral
-{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
-{% include officer/rank-bar.html rank="RRRRYY" %}
-{% include officer/rank-bar.html rank="BBRRRR" %}
-{% include officer/rank-bar.html rank="BBBBBB" %}
-
-#### Grand Moff/Governor
-{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
+#### Rank Bars
+<figure>
+	{% include officer/rank-bar.html rank="RR-BB" %}
+	{% include officer/rank-bar.html rank="BB" %}
+	<figcaption>Junior Lieutenant</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="RR-BB" %}
+	{% include officer/rank-bar.html rank="BBB" %}
+	{% include officer/rank-bar.html rank="BBBB" %}
+	{% include officer/rank-bar.html rank="BBBBBB" %}
+	{% include officer/rank-bar.html rank="RRB" %}
+	<figcaption>Lieutenant</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="RRR-BBB" %}
+	{% include officer/rank-bar.html rank="YYYYYY" %}
+	{% include officer/rank-bar.html rank="BBBRR" %}
+	<figcaption>Captain/Commandant</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="RRR-BBB" %}
+	{% include officer/rank-bar.html rank="RR" %}
+	{% include officer/rank-bar.html rank="BBBBRR" %}
+	<figcaption>Commander</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="RRRR-BBBB" %}
+	<figcaption>Major/Colonel/Commodore</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="RRRR-BBBB" spacing="wide" %}
+	{% include officer/rank-bar.html rank="BBBBBB-RRRRRR" %}
+	{% include officer/rank-bar.html rank="YYYYRR" %}
+	{% include officer/rank-bar.html rank="RRRRRR" %}
+	{% include officer/rank-bar.html rank="YYYYYY" %}
+	<figcaption>General</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
+	<figcaption>Grand General</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="RRRRR-BBBBB" %}
+	<figcaption>Vice Admiral</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
+	{% include officer/rank-bar.html rank="RRRRYY" %}
+	{% include officer/rank-bar.html rank="BBRRRR" %}
+	{% include officer/rank-bar.html rank="BBBBBB" %}
+	<figcaption>Admiral</figcaption>
+</figure>
+<figure>
+	{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
+	<figcaption>Grand Moff/Governor</figcaption>
+</figure>
 
 ### Staff Officer
 <figure>
@@ -81,10 +93,13 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-{% include officer/rank-bar.html rank="BBBB" %}
-{% include officer/rank-bar.html rank="BBBBYY" %}
-{% include officer/rank-bar.html rank="RR" %}
-{% include officer/rank-bar.html rank="RRR" %}
+#### Rank Bars
+<figure>
+	{% include officer/rank-bar.html rank="BBBB" %}
+	{% include officer/rank-bar.html rank="BBBBYY" %}
+	{% include officer/rank-bar.html rank="RR" %}
+	{% include officer/rank-bar.html rank="RRR" %}
+</figure>
 
 ### Warrant Officer
 <figure>
@@ -116,7 +131,10 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-{% include officer/rank-bar.html rank="RRRB" %}
+<figure>
+	{% include officer/rank-bar.html rank="RRRB" %}
+	<figcaption>Rogue One Rank Bar</figcaption>
+</figure>
 
 #### ANH Rank Bar Variations
 {% include officer/rank-bar.html rank="RRRBBB" %}
@@ -132,7 +150,10 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>White Straight Trousers</figcaption>
 </figure>
 
-{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
+<figure>
+	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
+	<figcaption>Grand Admiral Rank Bar</figcaption>
+</figure>
 
 ### Director Krennic
 <figure>
@@ -144,7 +165,10 @@ The base uniform has the double sided yoke, with the clasp on the wearer's right
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
+<figure>
+	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
+	<figcaption>Director/Admiral Rank Bar</figcaption>
+</figure>
 
 ## Materials Required
 
