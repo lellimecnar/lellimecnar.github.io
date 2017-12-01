@@ -15,16 +15,12 @@ title: Imperial Officer - Variations
 </figure>
 
 ### Rank Bars - Rogue One
-<table>
-	<tr>
-		<th>Science Officer</th>
-		<td>{% include officer/rank-bar.html rank="YYYYR" %}</td>
-	</tr>
-	<tr>
-		<th>Junior Lieutenant</th>
-		<td>{% include officer/rank-bar.html rank="BB" %}</td>
-	</tr>
-</table>
+
+|---:|:---|
+| **Science Officer** | {%- include officer/rank-bar.html rank="YYYYR" -%} |
+| **Junior Lieutenant** | {%- include officer/rank-bar.html rank="BB" -%} |
+| **Lieutenant** | {%- include officer/rank-bar.html rank="RRB" -%} |
+
 <figure>
 	<figcaption>Science Officer</figcaption>
 	{% include officer/rank-bar.html rank="YYYYR" %}
