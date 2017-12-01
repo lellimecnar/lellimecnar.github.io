@@ -13,9 +13,9 @@ I already had the [McCall's M4745 pattern](https://mccallpattern.mccall.com/m474
 I decided that since there are so many different types of Imperial Officer uniforms, and they're mostly identical, I'm going to put together some patterns that I can re-use and make as many of the different varieties as I want.
 
 ## Officer Variations
+### [Detailed List of Variations]({{ '/costuming/imperial-officer/variations' | relative_url }})
 There are several variations of the officer uniform, in three colors: olive, white, and black. The rank of each officer is conveyed by a rank bar attached to the front of the tunic over the wearer's left breast.
 
-### [Detailed List of Variations]({{ '/costuming/imperial-officer/variations' | relative_url }})
 
 ## Materials Required
 
