@@ -16,81 +16,89 @@ title: Imperial Officer - Variations
 
 ### Rank Bars - Rogue One
 
-|   |   |
-|--:|:--|
-| **Science Officer** | {% include officer/rank-bar.html rank="YYYYR" %} |
-| **Junior Lieutenant** | {% include officer/rank-bar.html rank="BB" %} |
-| **Lieutenant** | {% include officer/rank-bar.html rank="RRB" %} |
-
-<figure>
-	<figcaption>Science Officer</figcaption>
-	{% include officer/rank-bar.html rank="YYYYR" %}
-</figure>
-<figure>
-	<figcaption>Junior Lieutenant</figcaption>
-	{% include officer/rank-bar.html rank="BB" %}
-</figure>
-<figure>
-	<figcaption>Lieutenant</figcaption>
-	{% include officer/rank-bar.html rank="RRB" %}
-</figure>
-<figure>
-	<figcaption>Captain</figcaption>
-	{% include officer/rank-bar.html rank="BBBRR" %}
-</figure>
-<figure>
-	<figcaption>General</figcaption>
-	{% include officer/rank-bar.html rank="RRRRRR" %}
-	{% include officer/rank-bar.html rank="YYYYYY" %}
-</figure>
-<figure>
-	<figcaption>Admiral</figcaption>
-	{% include officer/rank-bar.html rank="BBBBBB" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Science Officer</th>
+		<td>{% include officer/rank-bar.html rank="YYYYR" %}</td>
+	</tr>
+	<tr>
+		<th>Junior Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="BB" %}</td>
+	</tr>
+	<tr>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="RRB" %}</td>
+	</tr>
+</table>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Captain</th>
+		<td>{% include officer/rank-bar.html rank="BBBRR" %}</td>
+	</tr>
+	<tr>
+		<th>General</th>
+		<td>
+			{% include officer/rank-bar.html rank="RRRRRR" %}
+			{% include officer/rank-bar.html rank="YYYYYY" %}
+		</td>
+	</tr>
+	<tr>
+		<th>Admiral</th>
+		<td>{% include officer/rank-bar.html rank="BBBBBB" %}</td>
+	</tr>
+</table>
 
 ### Rank Bars - A New Hope
-<figure>
-	<figcaption>Chief</figcaption>
-	{% include officer/rank-bar.html rank="YYYYRR" %}
-</figure>
-<figure>
-	<figcaption>Lieutenant</figcaption>
-	{% include officer/rank-bar.html rank="BBBBBB" %}
-</figure>
-<figure>
-	<figcaption>Captain</figcaption>
-	{% include officer/rank-bar.html rank="YYYYYY" %}
-</figure>
-<figure>
-	<figcaption>General</figcaption>
-	{% include officer/rank-bar.html rank="RRRRRR" %}
-</figure>
-<figure>
-	<figcaption>Admiral</figcaption>
-	{% include officer/rank-bar.html rank="BBRRRR" %}
-</figure>
-<figure>
-	<figcaption>Grand Moff</figcaption>
-	{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Chief</th>
+		<td>{% include officer/rank-bar.html rank="YYYYRR" %}</td>
+	</tr>
+	<tr>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="BBBBBB" %}</td>
+	</tr>
+	<tr>
+		<th>Captain</th>
+		<td>{% include officer/rank-bar.html rank="YYYYYY" %}</td>
+	</tr>
+</table>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>General</th>
+		<td>{% include officer/rank-bar.html rank="RRRRRR" %}</td>
+	</tr>
+	<tr>
+		<th>Admiral</th>
+		<td>{% include officer/rank-bar.html rank="BBRRRR" %}</td>
+	</tr>
+	<tr>
+		<th>Grand Moff</th>
+		<td>{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}</td>
+	</tr>
+</table>
 
 ### Rank Bars - Empire Strikes Back
-<figure>
-	<figcaption>Lieutenant</figcaption>
-	{% include officer/rank-bar.html rank="RR-BB" %}
-</figure>
-<figure>
-	<figcaption>Captain</figcaption>
-	{% include officer/rank-bar.html rank="RRR-BBB" class="wide" %}
-</figure>
-<figure>
-	<figcaption>General</figcaption>
-	{% include officer/rank-bar.html rank="RRRR-BBBB" class="wide" %}
-</figure>
-<figure>
-	<figcaption>Admiral</figcaption>
-	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="RR-BB" %}</td>
+	</tr>
+	<tr>
+		<th>Captain</th>
+		<td>{% include officer/rank-bar.html rank="RRR-BBB" class="wide" %}</td>
+	</tr>
+</table>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>General</th>
+		<td>{% include officer/rank-bar.html rank="RRRR-BBBB" class="wide" %}</td>
+	</tr>
+	<tr>
+		<th>Admiral</th>
+		<td>{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}</td>
+	</tr>
+</table>
 
 ## Staff Officer
 <figure>
@@ -103,28 +111,34 @@ title: Imperial Officer - Variations
 </figure>
 
 ### Rank Bars - Rogue One
-<figure>
-	<figcaption>Lieutenant</figcaption>
-	{% include officer/rank-bar.html rank="BBB" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="BBB" %}</td>
+	</tr>
+</table>
 
 ### Rank Bars - A New Hope
-<figure>
-	<figcaption>Ensign</figcaption>
-	{% include officer/rank-bar.html rank="RR" %}
-</figure>
-<figure>
-	<figcaption>2nd Lieutenant</figcaption>
-	{% include officer/rank-bar.html rank="RRR" class="wide" %}
-</figure>
-<figure>
-	<figcaption>Lieutenant</figcaption>
-	{% include officer/rank-bar.html rank="BBBB" %}
-</figure>
-<figure>
-	<figcaption>Commander</figcaption>
-	{% include officer/rank-bar.html rank="BBBBYY" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Ensign</th>
+		<td>{% include officer/rank-bar.html rank="RR" %}</td>
+	</tr>
+	<tr>
+		<th>2nd Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="RRR" class="wide" %}</td>
+	</tr>
+</table>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="BBBB" %}</td>
+	</tr>
+	<tr>
+		<th>Commander</th>
+		<td>{% include officer/rank-bar.html rank="BBBBYY" %}</td>
+	</tr>
+</table>
 
 ## Warrant Officer
 <figure>
@@ -158,22 +172,28 @@ Warrant Officers have no rank bars.
 </figure>
 
 ### Rank Bars - Rogue One
-<figure>
-	<figcaption>Inspector General</figcaption>
-	{% include officer/rank-bar.html rank="RRRB" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Inspector General</th>
+		<td>{% include officer/rank-bar.html rank="RRRB" %}</td>
+	</tr>
+</table>
 
 ### Rank Bars - A New Hope
-<figure>
-	<figcaption>Major</figcaption>
-	{% include officer/rank-bar.html rank="BBBRRR" %}
-</figure>
-<figure>
-	<figcaption>Colonel</figcaption>
-	{% include officer/rank-bar.html rank="RRRBBB" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Major</th>
+		<td>{% include officer/rank-bar.html rank="BBBRRR" %}</td>
+	</tr>
+</table>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Colonel</th>
+		<td>{% include officer/rank-bar.html rank="RRRBBB" %}</td>
+	</tr>
+</table>
 
-## Grand Admiral (Thrawn - Rebels)
+## Grand Admiral Thrawn (Rebels)
 <figure>
 	{% include officer/tunic.html class="white noCenterDart bellSleeves collarArrows epaulets" %}
 	<figcaption>White Tunic<small>(bell curves on sleeves,<wbr/> arrows on collar,<wbr/> epaulets,<wbr/> no center dart)</small></figcaption>
@@ -184,9 +204,12 @@ Warrant Officers have no rank bars.
 </figure>
 
 ### Rank Bars
-<figure>
-	{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Grand Admiral</th>
+		<td>{% include officer/rank-bar.html rank="BBBYYY-BBBRRR" %}</td>
+	</tr>
+</table>
 
 ## Director Krennic
 <figure>
@@ -199,9 +222,12 @@ Warrant Officers have no rank bars.
 </figure>
 
 ### Rank Bars
-<figure>
-	{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}
-</figure>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th>Admiral (ESB)/<wbr>Director</th>
+		<td>{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}</td>
+	</tr>
+</table>
 
 {% include officer/abbreviations.md %}
 

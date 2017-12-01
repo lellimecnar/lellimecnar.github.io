@@ -6,7 +6,6 @@
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(0, 0, 0, 0.2);
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-	margin: 0 auto;
 }
 
 .RankBar + .RankBar {
@@ -31,7 +30,7 @@
 .RankBar__row:not(:first-child) {
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-	
+
 .RankBar__tile {
 	width: 9px;
 	height: 13px;
@@ -51,11 +50,11 @@
 .RankBar__tile--R {
 	background-color: #E61B21;
 }
-		
+
 .RankBar__tile--B {
 	background-color: #2C78BC;
 }
-		
+
 .RankBar__tile--Y {
 	background-color: #FFA518;
 }
@@ -120,4 +119,34 @@ figcaption small {
 .Tunic--straightYoke .Tunic__shoulderSeam {
 	stroke: #7f7f7f !important;
 	opacity: 0.6;
+}
+
+.Officer__table {
+}
+
+.Officer__table th,
+.Officer__table td {
+	border: none !important;
+	vertical-align: top;
+}
+
+.Officer__table--rank {
+	width: auto;
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+}
+
+.Officer__table--rank + :not(.Officer__table) {
+	clear: both;
+}
+
+.Officer__table--rank th {
+	text-align: right;
+	line-height: 1em;
+}
+
+.Officer__table--rank td {
+	text-align: left;
+	width: 80px;
 }
