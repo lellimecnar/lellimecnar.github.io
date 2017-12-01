@@ -15,7 +15,7 @@ I decided that since there are so many different types of Imperial Officer unifo
 ## Officer Variations
 There are several variations of the officer uniform, in three colors: olive, white, and black. The rank of each officer is conveyed by a rank bar attached to the front of the tunic over the wearer's left breast.
 
-For a more detailed description and comparison of these variations, [see here]({{ '/costuming/imperial-officer/variations' | relative_url }}).
+### [Detailed List of Variations]({{ '/costuming/imperial-officer/variations' | relative_url }})
 
 ## Materials Required
 
