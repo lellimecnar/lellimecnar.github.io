@@ -6,6 +6,7 @@ collections:
   costuming:
     title: Costuming
     output: true
+    permalink: :collection/:path/
 
 defaults:
   -
