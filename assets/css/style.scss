@@ -32,12 +32,20 @@ nav .current {
 	font-size: 0.9em;
 }
 
-.subNav li > a {
+.subNav li:not(.subPage) > a {
 	color: #999;
 }
 
-.subNav li > a:hover {
+.subNav li:not(.subPage) > a:hover {
 	color: #666;
+}
+
+.subNav li.subPage:before {
+	content: "–";
+}
+
+.subNav li.subPage + li:not(.subPage) {
+	margin-top: 6px;
 }
 
 #comments,

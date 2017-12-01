@@ -1,4 +1,5 @@
 <header>
+	{% assign segments = page.url | split: "/" %}
 	{% if page.collection %}
 		{% for collection in site.collections %}
 			{% if collection.label == page.collection %}
@@ -8,6 +9,15 @@
 		{% capture url %}/{{ page.collection }}/{% endcapture %}
 		{% if page.url == url %}
 			<p>{{ page.description }}</p>
+		{% elsif segments | size == 3 %}
+			<p>
+				{% for entry in site[page.collection] %}
+					{% if entry.slug == segments[2] %}
+						{{ entry.title }}
+					{% endif %}
+				{% endfor %}
+				– {{ page.title }}
+			</p>
 		{% else %}
 			<p>{{ page.title }}</p>
 		{% endif %}

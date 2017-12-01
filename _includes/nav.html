@@ -34,8 +34,22 @@
 										class="current"
 									{% endif %}
 								>{{ entry.title }}</a>
+								<ul class="subNav">
+									{% for sub in collection.docs %}
+										{% assign segs = sub.url | split: "/" %}
+										{% if segs[3] and segs[2] == entry.slug %}
+											<li class="subPage">
+												<a
+													href="{{ site.baseurl }}{{ sub.url }}"
+													{% if sub.url == page.url %}
+														class="current"
+													{% endif %}
+												>{{ sub.title }}</a>
+											</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
 							</li>
-
 						{% endif %}
 					{% endfor %}
 				{% endif %}

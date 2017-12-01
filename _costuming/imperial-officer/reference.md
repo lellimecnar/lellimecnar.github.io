@@ -1,5 +1,5 @@
 ---
-title: Imperial Officer - Variations
+title: Reference
 ---
 
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/imperial-officer.css?v=' | append: site.github.build_revision | relative_url }}" />
