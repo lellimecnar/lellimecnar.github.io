@@ -12,7 +12,7 @@ I already had the [McCall's M4745 pattern](https://mccallpattern.mccall.com/m474
 ## Officer Variations
 I hope to join the [Imperial Officer Corps](http://www.imperialofficer.com){:target="_blank"} of the [501st Legion](http://www.501st.com){:target="_blank"}, and they have a long list of approved costumes to choose from in their [Costume Reference Library](http://databank.501st.com/databank/Costuming:IOC_CRL){:target="_blank"}. Most of the uniforms are pretty much identical, with just minor differences between them other than color and accessories (i.e. rank insignia, code cylinders, etc.). My plan is to alter the McCall's pattern to allow for these variations, share the results on this page, and make as many of the costumes as I want!
 
-On a separate page, I have taken all the information I could find, and put it together into a unified [reference guide]({% link _costuming/imperial-officer/reference.md %}). I will try to keep it up to date as I learn more.
+On a separate page, I have taken all the information I could find (from the CRLs, forums, wikis, etc.), and put it together into a single, unified, and coherent [reference guide]({% link _costuming/imperial-officer/reference.md %}). I will try to keep it up to date as I learn more.
 
 ## Materials
 I'm going to use the XL pattern, and take it in if necessary.
