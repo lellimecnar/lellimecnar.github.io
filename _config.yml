@@ -2,6 +2,7 @@ name: Lellimecnar
 theme: jekyll-theme-leap-day
 title: Lellimecnar
 description: Lance Miller
+permalink: :title/
 collections:
   costuming:
     title: Costuming

@@ -5,9 +5,18 @@
 				<h1>{{ collection.title }}</h1>
 			{% endif %}
 		{% endfor %}
-		<p>{{ page.title }}</p>
+		{% capture url %}/{{ page.collection }}/{% endcapture %}
+		{% if page.url == url %}
+			<p>{{ page.description }}</p>
+		{% else %}
+			<p>{{ page.title }}</p>
+		{% endif %}
 	{% else %}
 		<h1>{{ site.title }}</h1>
-		<p>{{ site.description }}</p>
+		{% if page.url == '/' %}
+			<p>{{ site.description }}</p>
+		{% else %}
+			<p>{{ page.title }}</p>
+		{% endif %}
 	{% endif %}
 </header>

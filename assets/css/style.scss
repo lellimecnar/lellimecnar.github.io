@@ -12,11 +12,68 @@ section {
 }
 
 nav {
+	display: initial !important;
 	top: 150px;
+}
+
+nav .current {
+	color: #333;
+	font-weight: bold;
+	border-bottom: 2px solid #ffcc00;
+}
+
+.subNav {
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+.subNav li {
+	padding: 0;
+	font-size: 0.9em;
+}
+
+.subNav li > a {
+	color: #999;
+}
+
+.subNav li > a:hover {
+	color: #666;
 }
 
 #comments,
 #comments > iframe {
 	width: 100% !important;
 	max-width: 100% !important;
+}
+
+thead > tr > th,
+tfoot > tr:last-child > td,
+tbody:last-child > tr:last-child > td {
+	border-bottom-color: #ffcc00;
+}
+
+tbody:first-child > tr:first-child > td {
+	border-top: 1px solid #ffcc00;
+}
+
+tfoot > tr:first-child > td {
+	border-top: 3px double #ffcc00;
+}
+
+th[style*="text-align: right"]:first-child,
+td[style*="text-align: right"]:first-child,
+tfoot td,
+th {
+	font-weight: bold;
+}
+
+tfoot td {
+	color: #222;
+}
+
+th[style*="text-align: right"]:first-child,
+td[style*="text-align: right"]:first-child {
+	border-left: none;
+	border-bottom: none;
+	border-top: none;
 }

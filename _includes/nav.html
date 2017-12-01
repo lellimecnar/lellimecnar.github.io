@@ -3,26 +3,43 @@
 		{% for entry in site.pages %}
 			{% if entry.title %}
 				<li>
-					<a href="{{ site.baseurl }}{{ entry.url }}"><strong>{{ entry.title }}</strong></a>
+					<a
+						href="{{ site.baseurl }}{{ entry.url }}"
+						{% if entry.url == page.url %}
+							class="current"
+						{% endif %}
+					><strong>{{ entry.title }}</strong></a>
 				</li>
 			{% endif %}
 		{% endfor %}
 		{% for collection in site.collections %}
 			{% if collection.title %}
+				{% capture url %}/{{ collection.label }}/{% endcapture %}
 				<li class="Nav__header Nav__header--collection">
-					<br />
-					<strong>{{ collection.title }}</strong>
+					<a
+						href="{{ site.baseurl }}{{ url }}"
+						{% if url == page.url %}
+							class="current"
+						{% endif %}
+					><strong>{{ collection.title }}</strong></a>
 				</li>
-				{% for entry in collection.docs %}
-					<li>
-						<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
-					</li>
-				{% endfor %}
+				{% if page.collection == collection.label %}
+					{% for entry in collection.docs %}
+						{% assign segments = entry.url | split: "/" | size %}
+						{% if segments == 3 %}
+							<li>
+								<a
+									href="{{ site.baseurl }}{{ entry.url }}"
+									{% if entry.url == page.url %}
+										class="current"
+									{% endif %}
+								>{{ entry.title }}</a>
+							</li>
+
+						{% endif %}
+					{% endfor %}
+				{% endif %}
 			{% endif %}
 		{% endfor %}
-		<li>
-			<br />
-			<strong>{{ page.title }}</strong>
-		</li>
 	</ul>
 </nav>
