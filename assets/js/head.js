@@ -24,3 +24,8 @@
 			)
 	}
 })();
+
+$(function() {
+	$('a[href^="http"]:not([href^="' + window.location.origin + '"]')
+		.attr('target', '_blank');
+})
