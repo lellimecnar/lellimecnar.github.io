@@ -252,8 +252,8 @@ figcaption small {
 	color: #000;
 }
 
-.PatternPieces__frontPiecesWrapper[data-current] {
-	color: #aaa;
+.PatternPieces__frontPiecesWrapper[data-current]  .PatternPieces__frontTemplate {
+	opacity: 0.3;
 }
 
 .PatternPieces__frontPiecesWrapper[data-current] .PatternPieces__frontPiece {
