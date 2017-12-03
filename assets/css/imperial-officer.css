@@ -248,30 +248,30 @@ figcaption small {
 	}
 }
 
-.PatternPieces__frontTemplateWrapper {
+.PatternPieces__frontPiecesWrapper {
 	color: #000;
 }
 
-.PatternPieces__frontTemplateWrapper[data-current] {
+.PatternPieces__frontPiecesWrapper[data-current] {
 	color: #aaa;
 }
 
-.PatternPieces__frontTemplateWrapper[data-current] .PatternPieces__frontPiece {
+.PatternPieces__frontPiecesWrapper[data-current] .PatternPieces__frontPiece {
 	fill: #fff !important;
 	fill-opacity: 0.6;
 }
 
-.PatternPieces__frontTemplateWrapper:not([data-current]) .PatternPieces__frontPiece,
-.PatternPieces__frontTemplateWrapper[data-current="2a"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2a),
-.PatternPieces__frontTemplateWrapper[data-current="2b"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2b),
-.PatternPieces__frontTemplateWrapper[data-current="2c"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2c),
-.PatternPieces__frontTemplateWrapper[data-current="2d"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2d),
-.PatternPieces__frontTemplateWrapper[data-current="2e"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2e),
-.PatternPieces__frontTemplateWrapper[data-current="2f"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2f),
-.PatternPieces__frontTemplateWrapper[data-current="2g"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2g),
-.PatternPieces__frontTemplateWrapper[data-current="2h"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2h),
-.PatternPieces__frontTemplateWrapper[data-current="2i"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2i),
-.PatternPieces__frontTemplateWrapper[data-current="2j"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2j) {
+.PatternPieces__frontPiecesWrapper:not([data-current]) .PatternPieces__frontPiece,
+.PatternPieces__frontPiecesWrapper[data-current="2a"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2a),
+.PatternPieces__frontPiecesWrapper[data-current="2b"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2b),
+.PatternPieces__frontPiecesWrapper[data-current="2c"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2c),
+.PatternPieces__frontPiecesWrapper[data-current="2d"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2d),
+.PatternPieces__frontPiecesWrapper[data-current="2e"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2e),
+.PatternPieces__frontPiecesWrapper[data-current="2f"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2f),
+.PatternPieces__frontPiecesWrapper[data-current="2g"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2g),
+.PatternPieces__frontPiecesWrapper[data-current="2h"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2h),
+.PatternPieces__frontPiecesWrapper[data-current="2i"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2i),
+.PatternPieces__frontPiecesWrapper[data-current="2j"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2j) {
 	display: none;
 }
 
@@ -290,7 +290,337 @@ figcaption small {
 	font-weight: bold;
 }
 
-.PatternPieces__centerDartDiagram {
-	transform: scale(2.4) translateX(-30px);
-	color: #000;
+.PatternPieces__centerDartDiagram .PatternPieces__centerDart--center,
+.PatternPieces__centerDartDiagram .PatternPieces__centerDart--left,
+.PatternPieces__centerDartDiagram .PatternPieces__centerDart--right {
+	stroke-dasharray: 24;
+	stroke-dashoffset: 24;
+}
+
+.PatternPieces__centerDartDiagram .PatternPieces__centerDart--center {
+	animation: draw--centerDartDiagramCenter 5s ease infinite;
+}
+
+.PatternPieces__centerDartDiagram .PatternPieces__centerDart--left {
+	animation: draw--centerDartDiagramLeft 5s ease infinite;
+}
+
+.PatternPieces__centerDartDiagram .PatternPieces__centerDart--right {
+	animation: draw--centerDartDiagramRight 5s ease infinite;
+}
+
+@keyframes draw--centerDartDiagramCenter {
+	0% {
+		stroke-dashoffset: 24;
+		opacity: 1;
+	}
+
+	25% {
+		stroke-dashoffset: 0;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dashoffset: 0;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dashoffset: 0;
+		opacity: 0;
+	}
+}
+
+@keyframes draw--centerDartDiagramLeft {
+	0%, 25% {
+		stroke-dashoffset: 24;
+		opacity: 1;
+	}
+
+	50% {
+		stroke-dashoffset: 0;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dashoffset: 0;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dashoffset: 0;
+		opacity: 0;
+	}
+}
+
+@keyframes draw--centerDartDiagramRight {
+	0%, 50% {
+		stroke-dashoffset: 24;
+		opacity: 1;
+	}
+
+	75% {
+		stroke-dashoffset: 0;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dashoffset: 0;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dashoffset: 0;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--A .centerDart,
+.PatternPieces__frontTemplate--B .centerDart,
+.PatternPieces__frontTemplate--C .centerDart,
+.PatternPieces__frontTemplate--A .pocketTop,
+.PatternPieces__frontTemplate--A .pocketUpper,
+.PatternPieces__frontTemplate--A .pocketLower,
+.PatternPieces__frontTemplate--A .pocketBottom,
+.PatternPieces__frontTemplate--A .straightRight,
+.PatternPieces__frontTemplate--A .straightLeft,
+.PatternPieces__frontTemplate--B .pocketTop,
+.PatternPieces__frontTemplate--B .pocketUpper,
+.PatternPieces__frontTemplate--B .pocketLower,
+.PatternPieces__frontTemplate--B .pocketBottom {
+	display: none;
+}
+
+.PatternPieces__frontTemplate--A .rightOuter {
+	animation: draw--rightOuter 8s ease infinite;
+}
+
+@keyframes draw--rightOuter {
+	0% {
+		stroke-dasharray: 0 140;
+		opacity: 1;
+	}
+
+	25% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 140;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--A .rightInner {
+	animation: draw--rightInner 8s ease infinite;
+}
+
+@keyframes draw--rightInner {
+	0%, 25% {
+		stroke-dasharray: 0 140;
+		opacity: 1;
+	}
+
+	50% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 140;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--A .leftOuter {
+	animation: draw--leftOuter 8s ease infinite;
+}
+
+@keyframes draw--leftOuter {
+	0%, 50% {
+		stroke-dasharray: 0 140;
+		opacity: 1;
+	}
+
+	75% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 140;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--B .straightRight {
+	animation: draw--straightRight 4s ease infinite;
+}
+
+@keyframes draw--straightRight {
+	0% {
+		stroke-dasharray: 0 60;
+		opacity: 1;
+	}
+
+	40% {
+		stroke-dasharray: 60;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 60;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 60;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--B .straightLeft {
+	animation: draw--straightLeft 4s ease infinite;
+}
+
+@keyframes draw--straightLeft {
+	0%, 35% {
+		stroke-dasharray: 0 60;
+		opacity: 1;
+	}
+
+	75% {
+		stroke-dasharray: 60;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 60;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 60;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--C .pocketTop {
+	animation: draw--pocketTop 8s ease infinite;
+}
+
+@keyframes draw--pocketTop {
+	0% {
+		stroke-dasharray: 0 140;
+		opacity: 1;
+	}
+
+	20% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 140;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--C .pocketUpper {
+	animation: draw--pocketUpper 8s ease infinite;
+}
+
+@keyframes draw--pocketUpper {
+	0%, 20% {
+		stroke-dasharray: 0 140;
+		opacity: 1;
+	}
+
+	40% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 140;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--C .pocketLower {
+	animation: draw--pocketLower 8s ease infinite;
+}
+
+@keyframes draw--pocketLower {
+	0%, 40% {
+		stroke-dasharray: 0 140;
+		opacity: 1;
+	}
+
+	60% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 140;
+		opacity: 0;
+	}
+}
+
+.PatternPieces__frontTemplate--C .pocketBottom {
+	animation: draw--pocketBottom 8s ease infinite;
+}
+
+@keyframes draw--pocketBottom {
+	0%, 60% {
+		stroke-dasharray: 0 140;
+		opacity: 1;
+	}
+
+	80% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 140;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 140;
+		opacity: 0;
+	}
 }

@@ -63,9 +63,25 @@ Draw a dotted line between the two marks (being sure to mirror it on both sides 
 
 Unfold the **front template** and lay it flat. Draw two solid lines ⅝" from each side of the dotted line on the **right**. Label the outside line _"cut for center/left side"_, and the inside line _"cut for right side."_ Draw another solid line ⅝" to the **left** of the dotted line on the **left**, and label it _"cut for center."_
 
+<div style="text-align:center">
+	<figure>
+		<svg class="PatternPieces__frontTemplate PatternPieces__frontTemplate--A" style="width:186px;height:145px">
+			{% include officer/front-template.html %}
+		</svg>
+	</figure>
+</div>
+
 Draw a horizontal line (perpendicular to the _center line_) from the center point of the collar to the outer _"cut for center"_ line on the right, and label it _"cut for left side."_
 
 > **FOR "STRAIGHT YOKE" VARIANTS:** Continue the horizontal line from the _center line_ to the solid _"cut for center" line_ on the **left**, and label it _"cut for center."_
+
+<div style="text-align:center">
+	<figure>
+		<svg class="PatternPieces__frontTemplate PatternPieces__frontTemplate--B" style="width:186px;height:145px">
+			{% include officer/front-template.html %}
+		</svg>
+	</figure>
+</div>
 
 ### Code Cylinder Pockets
 Fold the **front template** down the _center line_ again. Find the vertical midpoint of the sleeve opening, and mark both sides. Unfold the **front template** and draw another dotted line connecting the two marks. This marks the top of where the pockets will be.
@@ -79,6 +95,14 @@ Multiply the seam allowance by 2 (⅝" &times; 2 = 1¼") , and draw two solid ho
 #### Pocket Lining
 Draw another horizontal dotted line 4" below the _pocket top line_, and label it _"cut for pocket lining."_
 
+<div style="text-align:center">
+	<figure>
+		<svg class="PatternPieces__frontTemplate PatternPieces__frontTemplate--C" style="width:186px;height:145px">
+			{% include officer/front-template.html %}
+		</svg>
+	</figure>
+</div>
+
 ### Center Dart
 Draw a **dotted** line on the _center line_ connecting the bottom of the collar to the solid _"cut for top"_ line.
 
@@ -86,7 +110,22 @@ Measure the seam allowance (⅝") from the _center line_ along the collar edge, 
 
 <div style="text-align: center">
 	<figure>
-		<svg><use class="PatternPieces__centerDartDiagram" xlink:href="#PatternPieces__frontTemplate"></use></svg>
+		<svg style="width:186px;height:88px" class="PatternPieces__centerDartDiagram">
+			<line class="PatternPieces__centerDart--center" x1="92.62" y1="36.39" x2="92.62" y2="60.14" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/><line x1="92.62" y1="36.39" x2="92.62" y2="60.14" style="fill:none;stroke:#fbfbfb;stroke-dasharray:2;stroke-width:2px"/>
+			<path d="M1.5,11.54l52-10s2.82,16.92,13,26.23c6.86,6.29,18.29,8.35,26.17,8.75v-.09C100.49,36,112,34,118.81,27.73c10.15-9.31,13-26.23,13-26.23l52,10" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<line x1="173.38" y1="9.54" x2="164.58" y2="87.62" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9635515213012695,1.9635515213012695"/>
+			<line x1="11.88" y1="9.54" x2="20.68" y2="87.62" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9635515213012695,1.9635515213012695"/>
+			<line x1="179.17" y1="9.54" x2="170.37" y2="87.62" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<line x1="167.59" y1="9.54" x2="158.79" y2="87.62" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<line x1="6.09" y1="9.54" x2="14.89" y2="87.62" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<line x1="183.76" y1="71.72" x2="2.5" y2="71.72" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9808646440505981,1.9808646440505981"/>
+			<line x1="183.76" y1="60.14" x2="1.5" y2="60.14" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<line x1="183.76" y1="83.3" x2="1.5" y2="83.3" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<line class="PatternPieces__centerDart--left" x1="92.6" y1="60.08" x2="86.82" y2="36.65" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<line class="PatternPieces__centerDart--right" x1="92.63" y1="60.08" x2="98.41" y2="36.39" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<line x1="92.62" y1="36.39" x2="176.14" y2="36.39" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<line x1="92.62" y1="36.39" x2="9.12" y2="36.39" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+		</svg>
 		<figcaption>Center Dart</figcaption>
 	</figure>
 </div>
@@ -94,26 +133,11 @@ Measure the seam allowance (⅝") from the _center line_ along the collar edge, 
 ### Final Front Pieces
 Now that you have the **front template** with all of the correct markings, you can follow the interactive diagram below to trace out the 9 individual pattern pieces that you need:
 
-<div style="text-align: center" class="PatternPieces__frontTemplateWrapper">
+<div style="text-align: center" class="PatternPieces__frontPiecesWrapper">
 	<figure style="width: 40%">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.26 143.16">
-			<g id="PatternPieces__frontTemplate">
-				<path
-					d="M92.62,25.66c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L8.12,12.6S28.7,38.91,26,66.56C24.09,86.82,1.5,87.4,1.5,87.4S4.23,103,6,111.94,9.1,141,9.1,141l83.53.69,83.53-.69s1.37-20.07,3.12-29,4.48-24.54,4.48-24.54-22.6-.58-24.54-20.84c-2.66-27.65,17.92-54,17.92-54L119.67,1.5s-1.94,11.69-9,18.11C106,24,98.06,25.33,92.62,25.6"
-					style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
-				<line x1="148.41" y1="7.05" x2="133.27" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9867981672286987,1.9867981672286987"/>
-				<line x1="36.85" y1="7.05" x2="51.99" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9867981672286987,1.9867981672286987"/>
-				<line x1="152.41" y1="7.05" x2="137.27" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="144.41" y1="7.05" x2="129.27" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="32.85" y1="7.05" x2="47.99" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="25.13" y1="50" x2="160.12" y2="50"  style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9849269390106201,1.9849269390106201"/>
-				<line x1="20.83" y1="79" x2="164.42" y2="79" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9942539930343628,1.9942539930343628"/>
-				<line x1="162.13" y1="42" x2="23.19" y2="42" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="159.09" y1="58" x2="26.17" y2="58" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
-				<line class="PatternPieces__centerDart" x1="92.62" y1="42" x2="92.62" y2="25.6" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2"/>
-				<polyline class="PatternPieces__centerDart" points="96.62 25.6 92.62 42 88.62 25.78" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="92.62" y1="25.6" x2="150.31" y2="25.6" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="92.62" y1="25.6" x2="34.94" y2="25.6" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
+			<g class="PatternPieces__frontTemplate PatternPieces__frontTemplate--final">
+				{% include officer/front-template.html %}
 			</g>
 			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2a" d="M92.62,25.6v.06c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L8.12,12.6s16.51,21.12,18,45.4h120.5l3.65-32.4Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
 			<rect class="PatternPieces__frontPiece PatternPieces__frontPiece--2b" x="25.13" y="42" width="122.43" height="36.99" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
