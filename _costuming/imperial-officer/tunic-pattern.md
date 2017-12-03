@@ -79,6 +79,17 @@ Multiply the seam allowance by 2 (⅝" &times; 2 = 1¼") , and draw two solid ho
 #### Pocket Lining
 Draw another horizontal dotted line 4" below the _pocket top line_, and label it _"cut for pocket lining."_
 
+### Center Dart
+Draw a **dotted** line on the _center line_ connecting the bottom of the collar to the solid _"cut for top"_ line.
+
+Measure the seam allowance (⅝") from the _center line_ along the collar edge, and draw a solid line to the bottom of the dotted line you just drew. Repeat on the opposite side of the _center line_.
+
+<div style="text-align: center">
+	<figure>
+		<svg><use class="PatternPieces__centerDartDiagram" xlink:href="#PatternPieces__frontTemplate"></use></svg>
+		<figcaption>Center Dart</figcaption>
+	</figure>
+</div>
 
 ### Final Front Pieces
 Now that you have the **front template** with all of the correct markings, you can follow the interactive diagram below to trace out the 9 individual pattern pieces that you need:
@@ -86,7 +97,7 @@ Now that you have the **front template** with all of the correct markings, you c
 <div style="text-align: center" class="PatternPieces__frontTemplateWrapper">
 	<figure style="width: 40%">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.26 143.16">
-			<g class="PatternPieces__frontTemplate">
+			<g id="PatternPieces__frontTemplate">
 				<path
 					d="M92.62,25.66c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L8.12,12.6S28.7,38.91,26,66.56C24.09,86.82,1.5,87.4,1.5,87.4S4.23,103,6,111.94,9.1,141,9.1,141l83.53.69,83.53-.69s1.37-20.07,3.12-29,4.48-24.54,4.48-24.54-22.6-.58-24.54-20.84c-2.66-27.65,17.92-54,17.92-54L119.67,1.5s-1.94,11.69-9,18.11C106,24,98.06,25.33,92.62,25.6"
 					style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
@@ -99,8 +110,8 @@ Now that you have the **front template** with all of the correct markings, you c
 				<line x1="20.83" y1="79" x2="164.42" y2="79" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9942539930343628,1.9942539930343628"/>
 				<line x1="162.13" y1="42" x2="23.19" y2="42" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
 				<line x1="159.09" y1="58" x2="26.17" y2="58" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="92.62" y1="42" x2="92.62" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2"/>
-				<polyline points="96.62 25.6 92.62 42 88.62 25.78" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+				<line class="PatternPieces__centerDart" x1="92.62" y1="42" x2="92.62" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2"/>
+				<polyline class="PatternPieces__centerDart" points="96.62 25.6 92.62 42 88.62 25.78" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
 				<line x1="92.62" y1="25.6" x2="150.31" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
 				<line x1="92.62" y1="25.6" x2="34.94" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
 			</g>
@@ -121,7 +132,7 @@ Now that you have the **front template** with all of the correct markings, you c
 				style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
 			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2j" d="M119.67,1.5s-1.94,11.69-9,18.11C106,24,98.06,25.33,92.62,25.6v.06H35L48,141.29l44.65.37,44.64-.37,15-133.48Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
 		</svg>
-		<figcaption>Final Template</figcaption>
+		<figcaption>Completed Front Template</figcaption>
 	</figure>
 </div>
 
