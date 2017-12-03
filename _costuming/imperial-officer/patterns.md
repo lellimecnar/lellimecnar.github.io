@@ -109,7 +109,7 @@ Now that you have the **front template** with all of the correct markings, you c
 ### Tunic Back
 > **NOTE:** If the costume you're making is for one of the _very few_ characters that have a center back seam, you can skip this step, and just use pattern pieces **#3** & **#4** unaltered.
 
-Fold **#3** along the _center line_ and trace a new pattern piece, adding a **⬐Fold⬎** indicator to the center line. Label this as "**3** Back _(Fabric: cut 1, Lining: cut 1)_"
+Fold **#3** along the _center line_ and trace a new pattern piece, adding a **&darr;Fold&darr;** indicator to the center line. Label this as "**3** Back _(Fabric: cut 1, Lining: cut 1)_"
 
 No modifications are required for **#4**.
 
