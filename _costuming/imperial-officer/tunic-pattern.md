@@ -69,7 +69,7 @@ Draw a horizontal line (perpendicular to the _center line_) from the center poin
 
 ### Code Cylinder Pockets
 
-> **FOR "NO POCKET" VARIANTS:** Skip this section.
+> **FOR "NO POCKET" VARIANTS:** Skip to [Final Front Pieces](#final-front-pieces)
 
 Fold the **front template** down the _center line_ again. Find the vertical midpoint of the sleeve opening, and mark both sides. Unfold the **front template** and draw another dotted line connecting the two marks. This marks the top of where the pockets will be.
 
@@ -87,27 +87,65 @@ Using the _pocket top line_ as the top, draw a dotted-line rectangle with a heig
 ### Final Front Pieces
 Now that you have the **front template** with all of the correct markings, you can follow the interactive diagram below to trace out the 9 individual pattern pieces that you need:
 
-<div style="text-align: center">
-	<figure style="width: 35%">
-		<svg><use xlink:href="#PatternPiece__2xPieces"></use></svg>
-		<figcaption></figcaption>
-	</figure>
-	<figure style="width: 50%">
-		<svg><use xlink:href="#PatternPiece__frontTemplatePieces"></use></svg>
+<div style="text-align: center" class="PatternPieces__frontTemplateWrapper">
+	<figure style="width: 40%">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.26 143.16">
+			<g class="PatternPieces__frontTemplate">
+				<path
+					d="M92.62,25.66c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L8.12,12.6S28.7,38.91,26,66.56C24.09,86.82,1.5,87.4,1.5,87.4S4.23,103,6,111.94,9.1,141,9.1,141l83.53.69,83.53-.69s1.37-20.07,3.12-29,4.48-24.54,4.48-24.54-22.6-.58-24.54-20.84c-2.66-27.65,17.92-54,17.92-54L119.67,1.5s-1.94,11.69-9,18.11C106,24,98.06,25.33,92.62,25.6"
+					style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+				<line x1="148.41" y1="7.05" x2="133.27" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9867981672286987,1.9867981672286987"/>
+				<line x1="36.85" y1="7.05" x2="51.99" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9867981672286987,1.9867981672286987"/>
+				<line x1="152.41" y1="7.05" x2="137.27" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="144.41" y1="7.05" x2="129.27" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="32.85" y1="7.05" x2="47.99" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="25.13" y1="50" x2="160.12" y2="50"  style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9849269390106201,1.9849269390106201"/>
+				<line x1="20.83" y1="79" x2="164.42" y2="79" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9942539930343628,1.9942539930343628"/>
+				<line x1="162.13" y1="42" x2="23.19" y2="42" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="159.09" y1="58" x2="26.17" y2="58" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="92.62" y1="42" x2="92.62" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2"/>
+				<polyline points="96.62 25.6 92.62 42 88.62 25.78" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="92.62" y1="25.6" x2="150.31" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="92.62" y1="25.6" x2="34.94" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			</g>
+			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2a" d="M92.62,25.6v.06c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L8.12,12.6s16.51,21.12,18,45.4h120.5l3.65-32.4Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<rect class="PatternPieces__frontPiece PatternPieces__frontPiece--2b" x="25.13" y="42" width="122.43" height="36.99" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2c" d="M26,66.56C24.09,86.82,1.5,87.4,1.5,87.4S4.23,103,6,111.94,9.1,141,9.1,141l83.53.69,44.64-.37L148.47,42H23.13A63.21,63.21,0,0,1,26,66.56Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2d"
+				d="M92.62,25.6v.06c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L8.12,12.6S28.7,38.91,26,66.56C24.09,86.82,1.5,87.4,1.5,87.4S4.23,103,6,111.94,9.1,141,9.1,141l83.53.69,44.64-.37,13-115.69Z"
+				style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2e"
+				d="M119.67,1.5s-1.94,11.69-9,18.11C106,24,98.06,25.33,92.62,25.6v.06c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L32.94,7.81,48,141.29l44.65.37,44.64-.37,15-133.48Z"
+				style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2f" d="M177.14,12.6l-33-6.37.24.82-5.75,51H159.1C160.63,33.72,177.14,12.6,177.14,12.6Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<rect class="PatternPieces__frontPiece PatternPieces__frontPiece--2g" x="139.56" y="42" width="20.56" height="36.99" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2h" d="M140.47,42l-11.2,99.32v0l46.9-.39s1.37-20.07,3.12-29,4.48-24.54,4.48-24.54-22.6-.58-24.54-20.84A63.21,63.21,0,0,1,162.13,42Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2i"
+				d="M159.22,66.56c-2.66-27.65,17.92-54,17.92-54l-33-6.37.24.82L129.27,141.32v0l46.9-.39s1.37-20.07,3.12-29,4.48-24.54,4.48-24.54S161.16,86.82,159.22,66.56Z"
+				style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2j" d="M119.67,1.5s-1.94,11.69-9,18.11C106,24,98.06,25.33,92.62,25.6v.06H35L48,141.29l44.65.37,44.64-.37,15-133.48Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+		</svg>
 		<figcaption>Final Template</figcaption>
 	</figure>
 </div>
 
-* **2a** Top Left _(Fabric: cut 1)_
-* **2b** Left Pocket _(Lining: cut 1)_
-* **2c** Bottom Left _(Fabric: cut 1)_
-* **2d** Front Left Lining _(Lining: cut 1)_
-* **2e** Front Yoke _(Fabric: cut 2)_
-* **2f** Top Right _(Fabric: cut 1)_
-* **2g** Right Pocket _(Lining: cut 1)_
-* **2h** Bottom Right _(Fabric: cut 1)_
-* **2i** Front Right Lining _(Lining: cut 1)_
+> Click on an item below to highlight that piece above.
+
+* **2a** Top Left
+* **2b** Left Pocket
+* **2c** Bottom Left
+* **2d** Front Left Lining
+* **2e** Front Yoke _(Use **2j** for "straight yoke" variant)_
+* **2f** Top Right
+* **2g** Right Pocket
+* **2h** Bottom Right
+* **2i** Front Right Lining
+* **2j** Straight Yoke _(Only for "straight yoke" variant)_
 {:id="FrontPiecesList"}
+
+> **FOR "NO POCKET" VARIANTS:** You will only need **#2d**, **#2e**, and **#2i**.
+>
+> **FOR "STRAIGHT YOKE" VARIANTS:** You will need to use **#2j** instead of **#2e**
 
 ## Back
 > **NOTE:** If the costume you're making is for one of the _very few_ characters that have a center back seam, you can skip this step, and just use pattern pieces **#3** & **#4** unaltered.
@@ -121,3 +159,5 @@ No modifications are required for **#4**.
 ## Sleeves
 
 ## Collar
+
+<script type="text/javascript" src="{{ '/assets/js/imperial-officer.js?v=' | append: site.github.build_revision | relative_url }}"></script>
