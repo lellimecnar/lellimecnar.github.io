@@ -7,3 +7,4 @@
 > **TIP:** I decided to buy a bolt of ["tracing fabric"](http://www.joann.com/pellon-interfacing-tracing-material-pattern-white/1540640.html) and create my own pattern pieces, so I can keep the original pattern untouched. It has worked out well for me, and I highly recommend you do the same.
 
 ## Introduction
+The following steps should be independent of what size pattern you have, so choose your size, and make sure that you're always tracing/measuring/cutting the right lines for that size.
