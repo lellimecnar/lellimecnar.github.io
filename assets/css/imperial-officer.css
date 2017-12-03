@@ -166,6 +166,12 @@ figcaption small {
 	}
 }
 
+.PatternPiece__yokeMark1,
+.PatternPiece__yokeMark2 {
+	stroke-dasharray: 20;
+	stroke-dashoffset: 20;
+}
+
 .PatternPiece__yokeMark1 {
 	animation: fadeIn--yokeMark1 8s ease infinite;
 }
@@ -175,22 +181,36 @@ figcaption small {
 }
 
 @keyframes fadeIn--yokeMark1 {
-	0%, 70%, 100% {
-		opacity: 0;
+	0% {
+		opacity: 1;
+		stroke-dashoffset: 20;
 	}
 
 	10%, 60% {
+		stroke-dashoffset: 0;
 		opacity: 1;
+	}
+
+	70%, 100% {
+		opacity: 0;
+		stroke-dashoffset: 0;
 	}
 }
 
 @keyframes fadeIn--yokeMark2 {
-	0%, 20%, 70%, 100% {
-		opacity: 0;
+	0%, 20% {
+		stroke-dashoffset: 20;
+		opacity: 1;
 	}
 
 	30%, 60% {
+		stroke-dashoffset: 0;
 		opacity: 1;
+	}
+
+	70%, 100% {
+		stroke-dashoffset: 0;
+		opacity: 0;
 	}
 }
 
