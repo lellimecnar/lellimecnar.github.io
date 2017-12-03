@@ -14,6 +14,12 @@ I hope to join the [Imperial Officer Corps](http://www.imperialofficer.com){:tar
 
 On a separate page, I have taken all the information I could find (from the CRLs, forums, wikis, etc.), and put it together into a single, unified, and coherent [reference guide]({% link _costuming/imperial-officer/reference.md %}). I will try to keep it up to date as I learn more.
 
+## Pattern Modifications
+If you did through the forums, you'll find a lot of people saying that the M4745 pattern requires a lot of modifications, but it can be rather difficult to determine what those modifications are... So, I've played around with the pattern, and put together some detailed instructions, with animated diagrams showing exactly what modifications to make, depending on the variation you're doing.
+
+* [Tunic Patterns]({% link _costuming/imperial-officer/tunic-pattern.md %})
+* [Trouser Patterns]({% link _costuming/imperial-officer/trouser-pattern.md %})
+
 ## Materials
 I'm going to use the XL pattern, and take it in if necessary.
 
