@@ -1,17 +1,13 @@
 ---
-title: Patterns
+title: Tunic Pattern
 ---
 
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/imperial-officer.css?v=' | append: site.github.build_revision | relative_url }}" />
 
 {% include officer/pattern-diagrams.html %}
 
-## Introduction
-Unless you _really_ know what you're doing (in which case, you probably don't need this anyway) it will be easiest if you read through this entire page _first_ and then follow the instructions _in order_.
+{% include officer/pattern-intro.md %}
 
-> **TIP:** I decided to buy a bolt of ["tracing fabric"](http://www.joann.com/pellon-interfacing-tracing-material-pattern-white/1540640.html) and create my own pattern pieces, since there will be quite a few modifications (especially to the front). It has worked out well for me, and I highly recommend you do the same.
-
-## Tunic
 The [McCall's pattern](https://mccallpattern.mccall.com/m4745) has two coat types:
 
 * **A.** single-breasted, upper-thigh length.
@@ -33,7 +29,7 @@ Start by mirroring **#2** across the center line so you end up with one single p
 	</figure>
 </div>
 
-### Tunic Front
+## Front
 Fold the **front template** down the _center line_, and mark the half-way point on each shoulder. Overlap the **front template** with pattern piece **#3** so that the _center lines_ and the _bottom edges_ of both pieces are aligned. Add another mark to the _bottom edge_ of the **front template** along the right edge of **#3**.
 
 Set **#3** aside.
@@ -43,6 +39,7 @@ Draw a dotted line between the two marks (being sure to mirror it on both sides 
 >**NOTE:** This dotted line is for reference only, DO NOT CUT ANYTHING ON THIS LINE!!!
 
 <div style="text-align: center">
+<figure>
 	<svg id="PatternPiece__2-3" style="width: 110px">
 		<line class="PatternPiece__yokeLine1" x1="67.28" y1="7.05" x2="52.15" y2="141.32" style="fill:none;stroke:#000;stroke-line-cap:round;stroke-linejoin:round"/>
 		<line class="PatternPiece__yokeLine2" x1="67.28" y1="7.05" x2="52.15" y2="141.32" style="fill:none;stroke:#fbfbfb;stroke-line-cap:round;stroke-linejoin:round;stroke-width:3px"/>
@@ -60,6 +57,8 @@ Draw a dotted line between the two marks (being sure to mirror it on both sides 
 			<text transform="translate(9.17 98.08) rotate(-90)" style="font-size:6.797394275665283px;font-family:MyriadPro-Regular, Myriad Pro">CENTER FRONT</text>
 		</g>
 	</svg>
+	<figcaption>Drawing the dotted line</figcaption>
+</figure>
 </div>
 
 Unfold the **front template** and lay it flat. Draw two solid lines ⅝" from each side of the dotted line on the **right**. Label the outside line _"cut for center/left side"_, and the inside line _"cut for right side."_ Draw another solid line ⅝" to the **left** of the dotted line on the **left**, and label it _"cut for center."_
@@ -68,7 +67,7 @@ Draw a horizontal line (perpendicular to the _center line_) from the center poin
 
 > **FOR "STRAIGHT YOKE" VARIANTS:** Continue the horizontal line from the _center line_ to the solid _"cut for center" line_ on the **left**, and label it _"cut for center."_
 
-#### Code Cylinder Pockets
+### Code Cylinder Pockets
 
 > **FOR "NO POCKET" VARIANTS:** Skip this section.
 
@@ -80,12 +79,12 @@ Multiply the seam allowance by 2 (⅝" &times; 2 = 1¼") , and draw two solid ho
 
 > **NOTE:** We double the seam allowance here so we can hide the inner lining seam by offsetting it ⅝" below the top of the pocket opening.
 
-##### Pocket Lining
+#### Pocket Lining
 Measure 4" plus the seam allowance (4" + ⅝" = 4⅝") down from the
 
 Using the _pocket top line_ as the top, draw a dotted-line rectangle with a height of 4" plus the seam allowance (4" + ⅝" = 4⅝"). Label the bottom edge of this dotted rectangle _"cut for pocket lining."_
 
-#### Final Front Pieces
+### Final Front Pieces
 Now that you have the **front template** with all of the correct markings, you can follow the interactive diagram below to trace out the 9 individual pattern pieces that you need:
 
 <div style="text-align: center">
@@ -110,17 +109,15 @@ Now that you have the **front template** with all of the correct markings, you c
 * **2i** Front Right Lining _(Lining: cut 1)_
 {:id="FrontPiecesList"}
 
-### Tunic Back
+## Back
 > **NOTE:** If the costume you're making is for one of the _very few_ characters that have a center back seam, you can skip this step, and just use pattern pieces **#3** & **#4** unaltered.
 
 Fold **#3** along the _center line_ and trace a new pattern piece, adding a **&darr;Fold&darr;** indicator to the center line. Label this as "**3** Back _(Fabric: cut 1, Lining: cut 1)_"
 
 No modifications are required for **#4**.
 
-### "Skirt" Pieces
+## "Skirt" Pieces
 
-### Sleeves
+## Sleeves
 
-### Collar
-
-## Jodhpur Trousers
+## Collar
