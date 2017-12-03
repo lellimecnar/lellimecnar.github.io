@@ -36,27 +36,29 @@ Start by mirroring **#2** across the center line so you end up with one single p
 ### Tunic Front
 Fold the **front template** down the _center line_, and mark the half-way point on each shoulder. Overlap the **front template** with pattern piece **#3** so that the _center lines_ and the _bottom edges_ of both pieces are aligned. Add another mark to the _bottom edge_ of the **front template** along the right edge of **#3**.
 
-Set **#3** aside. 
+Set **#3** aside.
 
 Draw a dotted line between the two marks (being sure to mirror it on both sides of the front template). This marks the seam line for the double yoke.
 
 >**NOTE:** This dotted line is for reference only, DO NOT CUT ANYTHING ON THIS LINE!!!
 
 <div style="text-align: center">
-	<svg id="PatternPiece__2-3" style="width: 186px">
+	<svg id="PatternPiece__2-3" style="width: 110px">
+		<line class="PatternPiece__yokeLine1" x1="67.28" y1="7.05" x2="52.15" y2="141.32" style="fill:none;stroke:#000;stroke-line-cap:round;stroke-linejoin:round"/>
+		<line class="PatternPiece__yokeLine2" x1="67.28" y1="7.05" x2="52.15" y2="141.32" style="fill:none;stroke:#fbfbfb;stroke-line-cap:round;stroke-linejoin:round;stroke-width:3px"/>
 		<path
 			d="M11.5,141.66,95,141s1.36-20.07,3.11-29,4.48-24.54,4.48-24.54S80,86.82,78.09,66.56C75.43,38.91,96,12.6,96,12.6L38.55,1.5s-1.95,11.69-9,18.11c-4.74,4.35-12.66,5.72-18.09,6Z"
 			style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
 		<path d="M11.5,25.66" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+		<line class="PatternPiece__yokeMark1" x1="67.28" y1="7.05" x2="66" y2="18.9" style="fill:none;stroke:#235796;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/>
+		<line class="PatternPiece__yokeMark2" x1="52.15" y1="141.32" x2="53.15" y2="131.27" style="fill:none;stroke:#235796;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/>
 		<g class="PatternPiece__3overlay">
 			<path
 				d="M1.5,12.65v129l50.65-.34s-1-29.8,7.45-54.19C66.45,67.4,85.62,55,85.62,55s-4-5.06-3.69-10.09a42,42,0,0,1,4-15.44L38.55,1.5a64.08,64.08,0,0,1-12.17,8.81C20.28,13.56,1.5,12.65,1.5,12.65Z"
-				style="fill:#fff;fill-opacity:0.5;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+				style="fill:#fff;fill-opacity:0.7;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
 			<line  x1="11.5" y1="12.71" x2="11.5" y2="141.68" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
 			<text transform="translate(9.17 98.08) rotate(-90)" style="font-size:6.797394275665283px;font-family:MyriadPro-Regular, Myriad Pro">CENTER FRONT</text>
 		</g>
-		<line class="PatternPiece__yokeMark1" x1="67.28" y1="7.05" x2="63.09" y2="20.59" style="fill:none;stroke:#f00;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
-		<line class="PatternPiece__yokeMark2" x1="52.15" y1="141.32" x2="52.15" y2="131.27" style="fill:none;stroke:#f00;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
 	</svg>
 </div>
 
