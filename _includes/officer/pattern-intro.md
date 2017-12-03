@@ -1,3 +1,5 @@
+> **DISCLAIMER:** This is still a work in progress. While I am doing my best to adhere to L3 requirements, I cannot yet guarantee that these methods will result in approval by the IOC.
+
 ## Introduction
 Unless you _really_ know what you're doing (in which case, you probably don't need this anyway) it will be easiest if you read through this entire page _first_ and then follow the instructions _in order_.
 
