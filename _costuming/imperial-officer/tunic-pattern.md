@@ -68,9 +68,6 @@ Draw a horizontal line (perpendicular to the _center line_) from the center poin
 > **FOR "STRAIGHT YOKE" VARIANTS:** Continue the horizontal line from the _center line_ to the solid _"cut for center" line_ on the **left**, and label it _"cut for center."_
 
 ### Code Cylinder Pockets
-
-> **FOR "NO POCKET" VARIANTS:** Skip to [Final Front Pieces](#final-front-pieces)
-
 Fold the **front template** down the _center line_ again. Find the vertical midpoint of the sleeve opening, and mark both sides. Unfold the **front template** and draw another dotted line connecting the two marks. This marks the top of where the pockets will be.
 
 > **NOTE:** This dotted line is the _pocket top line_, and again, is for reference only. **DO NOT CUT ANYTHING HERE!!!**
@@ -80,9 +77,8 @@ Multiply the seam allowance by 2 (⅝" &times; 2 = 1¼") , and draw two solid ho
 > **NOTE:** We double the seam allowance here so we can hide the inner lining seam by offsetting it ⅝" below the top of the pocket opening.
 
 #### Pocket Lining
-Measure 4" plus the seam allowance (4" + ⅝" = 4⅝") down from the
+Draw another horizontal dotted line 4" below the _pocket top line_, and label it _"cut for pocket lining."_
 
-Using the _pocket top line_ as the top, draw a dotted-line rectangle with a height of 4" plus the seam allowance (4" + ⅝" = 4⅝"). Label the bottom edge of this dotted rectangle _"cut for pocket lining."_
 
 ### Final Front Pieces
 Now that you have the **front template** with all of the correct markings, you can follow the interactive diagram below to trace out the 9 individual pattern pieces that you need:
