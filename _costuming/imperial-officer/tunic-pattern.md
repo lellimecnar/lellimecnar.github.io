@@ -191,4 +191,6 @@ No modifications are required for **#4**.
 
 ## Collar
 
+{% include officer/abbreviations.md %}
+
 <script type="text/javascript" src="{{ '/assets/js/imperial-officer.js?v=' | append: site.github.build_revision | relative_url }}"></script>
