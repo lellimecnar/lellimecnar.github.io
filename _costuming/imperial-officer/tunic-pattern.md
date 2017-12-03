@@ -13,8 +13,9 @@ The [McCall's pattern](https://mccallpattern.mccall.com/m4745) has two coat type
 * **A.** single-breasted, upper-thigh length.
 * **B.** double-breasted, above-the-knee length.
 
-You'll need to create sort of a hybrid between the two.
+The Imperial Officer uniform tunic is sort of a hybrid between the two.
 
+## Front
 Start by mirroring **#2** across the center line so you end up with one single pattern piece of the entire front. This will be the **front template**, and you will create 9 completely new pattern pieces from this one large piece.
 
 <div style="text-align: center">
@@ -29,7 +30,6 @@ Start by mirroring **#2** across the center line so you end up with one single p
 	</figure>
 </div>
 
-## Front
 Fold the **front template** down the _center line_, and mark the half-way point on each shoulder. Overlap the **front template** with pattern piece **#3** so that the _center lines_ and the _bottom edges_ of both pieces are aligned. Add another mark to the _bottom edge_ of the **front template** along the right edge of **#3**.
 
 Set **#3** aside.
