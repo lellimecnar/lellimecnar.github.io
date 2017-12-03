@@ -100,20 +100,20 @@ Now that you have the **front template** with all of the correct markings, you c
 			<g id="PatternPieces__frontTemplate">
 				<path
 					d="M92.62,25.66c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L8.12,12.6S28.7,38.91,26,66.56C24.09,86.82,1.5,87.4,1.5,87.4S4.23,103,6,111.94,9.1,141,9.1,141l83.53.69,83.53-.69s1.37-20.07,3.12-29,4.48-24.54,4.48-24.54-22.6-.58-24.54-20.84c-2.66-27.65,17.92-54,17.92-54L119.67,1.5s-1.94,11.69-9,18.11C106,24,98.06,25.33,92.62,25.6"
-					style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
-				<line x1="148.41" y1="7.05" x2="133.27" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9867981672286987,1.9867981672286987"/>
-				<line x1="36.85" y1="7.05" x2="51.99" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9867981672286987,1.9867981672286987"/>
-				<line x1="152.41" y1="7.05" x2="137.27" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="144.41" y1="7.05" x2="129.27" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="32.85" y1="7.05" x2="47.99" y2="141.32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="25.13" y1="50" x2="160.12" y2="50"  style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9849269390106201,1.9849269390106201"/>
-				<line x1="20.83" y1="79" x2="164.42" y2="79" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9942539930343628,1.9942539930343628"/>
-				<line x1="162.13" y1="42" x2="23.19" y2="42" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="159.09" y1="58" x2="26.17" y2="58" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
-				<line class="PatternPieces__centerDart" x1="92.62" y1="42" x2="92.62" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2"/>
-				<polyline class="PatternPieces__centerDart" points="96.62 25.6 92.62 42 88.62 25.78" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="92.62" y1="25.6" x2="150.31" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
-				<line x1="92.62" y1="25.6" x2="34.94" y2="25.6" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+					style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+				<line x1="148.41" y1="7.05" x2="133.27" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9867981672286987,1.9867981672286987"/>
+				<line x1="36.85" y1="7.05" x2="51.99" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9867981672286987,1.9867981672286987"/>
+				<line x1="152.41" y1="7.05" x2="137.27" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="144.41" y1="7.05" x2="129.27" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="32.85" y1="7.05" x2="47.99" y2="141.32" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="25.13" y1="50" x2="160.12" y2="50"  style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9849269390106201,1.9849269390106201"/>
+				<line x1="20.83" y1="79" x2="164.42" y2="79" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9942539930343628,1.9942539930343628"/>
+				<line x1="162.13" y1="42" x2="23.19" y2="42" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="159.09" y1="58" x2="26.17" y2="58" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
+				<line class="PatternPieces__centerDart" x1="92.62" y1="42" x2="92.62" y2="25.6" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2"/>
+				<polyline class="PatternPieces__centerDart" points="96.62 25.6 92.62 42 88.62 25.78" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="92.62" y1="25.6" x2="150.31" y2="25.6" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
+				<line x1="92.62" y1="25.6" x2="34.94" y2="25.6" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"/>
 			</g>
 			<path class="PatternPieces__frontPiece PatternPieces__frontPiece--2a" d="M92.62,25.6v.06c-5.44-.28-13.33-1.7-18.08-6.05-7-6.42-9-18.11-9-18.11L8.12,12.6s16.51,21.12,18,45.4h120.5l3.65-32.4Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
 			<rect class="PatternPieces__frontPiece PatternPieces__frontPiece--2b" x="25.13" y="42" width="122.43" height="36.99" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>

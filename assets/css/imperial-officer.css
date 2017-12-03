@@ -248,8 +248,12 @@ figcaption small {
 	}
 }
 
-.PatternPieces__frontTemplateWrapper[data-current] #PatternPieces__frontTemplate {
-	opacity: 0.3;
+.PatternPieces__frontTemplateWrapper {
+	color: #000;
+}
+
+.PatternPieces__frontTemplateWrapper[data-current] {
+	color: #aaa;
 }
 
 .PatternPieces__frontTemplateWrapper[data-current] .PatternPieces__frontPiece {
@@ -288,4 +292,5 @@ figcaption small {
 
 .PatternPieces__centerDartDiagram {
 	transform: scale(2.4) translateX(-30px);
+	color: #000;
 }
