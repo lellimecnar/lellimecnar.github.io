@@ -19,7 +19,7 @@ The [McCall's pattern](https://mccallpattern.mccall.com/m4745) has two coat type
 
 You'll need to create sort of a hybrid between the two.
 
-Start by mirroring **#2** across the center line so you end up with one single pattern piece of the entire front. This will be the **front template**, and you will create 5 completely new pattern pieces from this one large piece.
+Start by mirroring **#2** across the center line so you end up with one single pattern piece of the entire front. This will be the **front template**, and you will create 9 completely new pattern pieces from this one large piece.
 
 <div style="text-align: center">
 	<figure>
@@ -34,7 +34,25 @@ Start by mirroring **#2** across the center line so you end up with one single p
 </div>
 
 ### Tunic Front
-Fold the **front template** down the _center line_, and mark the half-way point on each shoulder. Overlap the **front template** with pattern piece **#3** so that the _center line_ and the _bottom edge_ are aligned. Add another mark to the _bottom edge_ of the **front template** along the right edge of **#3**.
+Fold the **front template** down the _center line_, and mark the half-way point on each shoulder. Overlap the **front template** with pattern piece **#3** so that the _center lines_ and the _bottom edges_ of both pieces are aligned. Add another mark to the _bottom edge_ of the **front template** along the right edge of **#3**.
+
+<div style="text-align: center">
+	<svg id="PatternPiece__2-3" style="width: 186px">
+		<path
+			d="M11.5,141.66,95,141s1.36-20.07,3.11-29,4.48-24.54,4.48-24.54S80,86.82,78.09,66.56C75.43,38.91,96,12.6,96,12.6L38.55,1.5s-1.95,11.69-9,18.11c-4.74,4.35-12.66,5.72-18.09,6Z"
+			style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+		<path d="M11.5,25.66" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+		<g class="PatternPiece__3overlay">
+			<path
+				d="M1.5,12.65v129l50.65-.34s-1-29.8,7.45-54.19C66.45,67.4,85.62,55,85.62,55s-4-5.06-3.69-10.09a42,42,0,0,1,4-15.44L38.55,1.5a64.08,64.08,0,0,1-12.17,8.81C20.28,13.56,1.5,12.65,1.5,12.65Z"
+				style="fill:#fff;fill-opacity:0.5;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+			<line  x1="11.5" y1="12.71" x2="11.5" y2="141.68" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round"/>
+			<text transform="translate(9.17 98.08) rotate(-90)" style="font-size:6.797394275665283px;font-family:MyriadPro-Regular, Myriad Pro">CENTER FRONT</text>
+		</g>
+		<line class="PatternPiece__yokeMark1" x1="67.28" y1="7.05" x2="63.09" y2="20.59" style="fill:none;stroke:#f00;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+		<line class="PatternPiece__yokeMark2" x1="52.15" y1="141.32" x2="52.15" y2="131.27" style="fill:none;stroke:#f00;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+	</svg>
+</div>
 
 Set **#3** aside. Draw a dotted line between the two marks (being sure to mirror it on both sides of the front template). This marks the seam line for the double yoke.
 
@@ -59,21 +77,39 @@ Multiply the seam allowance by 2 (⅝" &times; 2 = 1¼") , and draw two solid ho
 > **NOTE:** We double the seam allowance here so we can hide the inner lining seam by offsetting it ⅝" below the top of the pocket opening.
 
 ##### Pocket Lining
-You need two measurements from the horizontal _pocket top line_:
+Measure 4" plus the seam allowance (4" + ⅝" = 4⅝") down from the
 
-1. From the _left edge_ to the _"cut for center/left side" line_
-1. From the _"cut for right side" line_ to the _right edge_
-
-Using those two measurements as widths, create two new rectangular pattern pieces with a height of 4" plus the seam allowance (4" + ⅝" = 4⅝"). Label the widest one "**2b** Left Pocket _(Lining: cut 1)_" and the other "**2f** Right Pocket _(Lining: cut 1)_." Add a "⬐Fold⬎" mark to the bottom (wide) edge of both pieces.
-
-Set **#2b** and **#2f** aside.
+Using the _pocket top line_ as the top, draw a dotted-line rectangle with a height of 4" plus the seam allowance (4" + ⅝" = 4⅝"). Label the bottom edge of this dotted rectangle _"cut for pocket lining."_
 
 #### Final Front Pieces
+Now that you have the **front template** with all of the correct markings, you can follow the interactive diagram below to trace out the 9 individual pattern pieces that you need:
+
+<div style="text-align: center">
+	<figure style="width: 35%">
+		<svg><use xlink:href="#PatternPiece__2xPieces"></use></svg>
+		<figcaption></figcaption>
+	</figure>
+	<figure style="width: 50%">
+		<svg><use xlink:href="#PatternPiece__frontTemplatePieces"></use></svg>
+		<figcaption>Final Template</figcaption>
+	</figure>
+</div>
+
+* **2a** Top Left _(Fabric: cut 1)_
+* **2b** Left Pocket _(Lining: cut 1)_
+* **2c** Bottom Left _(Fabric: cut 1)_
+* **2d** Front Left Lining _(Lining: cut 1)_
+* **2e** Front Yoke _(Fabric: cut 2)_
+* **2f** Top Right _(Fabric: cut 1)_
+* **2g** Right Pocket _(Lining: cut 1)_
+* **2h** Bottom Right _(Fabric: cut 1)_
+* **2i** Front Right Lining _(Lining: cut 1)_
+{:id="FrontPiecesList"}
 
 ### Tunic Back
 > **NOTE:** If the costume you're making is for one of the _very few_ characters that have a center back seam, you can skip this step, and just use pattern pieces **#3** & **#4** unaltered.
 
-Fold **#3** along the _center line_ and trace a new pattern piece, adding a "⬐Fold⬎" indicator to the center line. Label this as "**3** Back _(Fabric: cut 1, Lining: cut 1)_"
+Fold **#3** along the _center line_ and trace a new pattern piece, adding a **⬐Fold⬎** indicator to the center line. Label this as "**3** Back _(Fabric: cut 1, Lining: cut 1)_"
 
 No modifications are required for **#4**.
 
@@ -82,3 +118,5 @@ No modifications are required for **#4**.
 ### Sleeves
 
 ### Collar
+
+## Jodhpur Trousers

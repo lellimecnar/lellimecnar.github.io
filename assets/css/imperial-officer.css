@@ -149,3 +149,47 @@ figcaption small {
 	text-align: left;
 	width: 80px;
 }
+
+.PatternPiece__3overlay {
+	animation: fadeInRight--3overlay 8s ease infinite;
+}
+
+@keyframes fadeInRight--3overlay {
+	0%, 20%, 70%, 100% {
+		transform: translate3d(20px, 0, 0);
+		opacity: 0;
+	}
+
+	30%, 60% {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+}
+
+.PatternPiece__yokeMark1 {
+	animation: fadeIn--yokeMark1 8s ease infinite;
+}
+
+.PatternPiece__yokeMark2 {
+	animation: fadeIn--yokeMark2 8s ease infinite;
+}
+
+@keyframes fadeIn--yokeMark1 {
+	0%, 90%, 100% {
+		opacity: 0;
+	}
+
+	10%, 80% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn--yokeMark2 {
+	0%, 40%, 90%, 100% {
+		opacity: 0;
+	}
+
+	50%, 80% {
+		opacity: 1;
+	}
+}
