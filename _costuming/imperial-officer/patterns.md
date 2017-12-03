@@ -36,6 +36,12 @@ Start by mirroring **#2** across the center line so you end up with one single p
 ### Tunic Front
 Fold the **front template** down the _center line_, and mark the half-way point on each shoulder. Overlap the **front template** with pattern piece **#3** so that the _center lines_ and the _bottom edges_ of both pieces are aligned. Add another mark to the _bottom edge_ of the **front template** along the right edge of **#3**.
 
+Set **#3** aside. 
+
+Draw a dotted line between the two marks (being sure to mirror it on both sides of the front template). This marks the seam line for the double yoke.
+
+>**NOTE:** This dotted line is for reference only, DO NOT CUT ANYTHING ON THIS LINE!!!
+
 <div style="text-align: center">
 	<svg id="PatternPiece__2-3" style="width: 186px">
 		<path
@@ -53,10 +59,6 @@ Fold the **front template** down the _center line_, and mark the half-way point 
 		<line class="PatternPiece__yokeMark2" x1="52.15" y1="141.32" x2="52.15" y2="131.27" style="fill:none;stroke:#f00;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
 	</svg>
 </div>
-
-Set **#3** aside. Draw a dotted line between the two marks (being sure to mirror it on both sides of the front template). This marks the seam line for the double yoke.
-
->**NOTE:** This dotted line is for reference only, DO NOT CUT ANYTHING ON THIS LINE!!!
 
 Unfold the **front template** and lay it flat. Draw two solid lines ⅝" from each side of the dotted line on the **right**. Label the outside line _"cut for center/left side"_, and the inside line _"cut for right side."_ Draw another solid line ⅝" to the **left** of the dotted line on the **left**, and label it _"cut for center."_
 
