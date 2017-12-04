@@ -145,10 +145,12 @@ Trace **#11** with the _"Center Back Fold line"_ as the left edge, and draw the 
 Add a **&darr;Fold&darr;** indicator to the left edge, and label the piece: "**11** Lower Back/Front _(Fabric: cut 4)_."
 
 ### Lower Side Back
-Trace **#12**, using the vertical _"FOLD LINE"_ as the left edge.
+Trace **#12**, using the vertical _"FOLD LINE"_ as the left edge, and label it: "**12** Lower Side Back _(Fabric: cut 4)_."
 
 ### Lower Side Front
+Align the bottom edge of **#2i** to the top edge of **#13** on the left corner. Draw a vertical line from the bottom right corner of **#2i** to the _"Cut here for A"_ line on **#13**. With that vertical line as you right edge, trace a new pattern piece, and label it: "**13a** Lower Right Side Front _(Fabric: cut 2)_."
 
+Repeat the above step with **#2d** in place of **#2i**. Label this one: "**13b** Lower Left Side Front _(Fabric: cut 2)_."
 
 ## Sleeves
 
