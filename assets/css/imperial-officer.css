@@ -155,87 +155,37 @@ figcaption small {
 }
 
 @keyframes fadeInRight--3overlay {
-	0%, 10% {
+	0%, 15% {
 		transform: translate3d(50px, 60px, 0) rotateZ(10deg) scale3d(1.25, 1.25, 1);
 		opacity: 0;
 	}
 
-	20%, 30% {
+	30%, 50% {
 		transform: translate3d(0, 0, 0) rotateZ(0deg) scale3d(1, 1, 1);
 		opacity: 1;
 	}
 
-	40%, 100% {
+	70%, 100% {
 		transform: translate3d(50px, -60px, 0) rotateZ(-10deg) scale3d(1.25, 1.25, 1);
 		opacity: 0;
 	}
 }
 
-.PatternPiece__yokeMark1,
-.PatternPiece__yokeMark2 {
-	stroke-dasharray: 20;
-	stroke-dashoffset: 20;
-}
-
-.PatternPiece__yokeMark1 {
-	animation: fadeIn--yokeMark1 8s ease infinite;
-}
-
-.PatternPiece__yokeMark2 {
-	animation: fadeIn--yokeMark2 8s ease infinite;
-}
-
-@keyframes fadeIn--yokeMark1 {
-	0% {
-		opacity: 1;
-		stroke-dashoffset: 20;
-	}
-
-	10%, 60% {
-		stroke-dashoffset: 0;
-		opacity: 1;
-	}
-
-	70%, 100% {
-		opacity: 0;
-		stroke-dashoffset: 0;
-	}
-}
-
-@keyframes fadeIn--yokeMark2 {
-	0%, 20% {
-		stroke-dashoffset: 20;
-		opacity: 1;
-	}
-
-	30%, 60% {
-		stroke-dashoffset: 0;
-		opacity: 1;
-	}
-
-	70%, 100% {
-		stroke-dashoffset: 0;
-		opacity: 0;
-	}
-}
-
 .PatternPiece__yokeLine1 {
-	stroke-dasharray: 200;
-	stroke-dashoffset: 200;
 	animation: draw--yokeLine1 8s ease infinite;
 }
 
-.PatternPiece__yokeLine2 {
-	stroke-dasharray: 3;
-}
-
 @keyframes draw--yokeLine1 {
-	0%, 40% {
-		stroke-dashoffset: 200;
+	0% {
+		stroke-dasharray: 0 200;
 	}
 
-	80% {
-		stroke-dashoffset: 0;
+	20%, 35% {
+		stroke-dasharray: 5 200;
+	}
+
+	60% {
+		stroke-dasharray: 200;
 	}
 
 	90% {
@@ -243,7 +193,7 @@ figcaption small {
 	}
 
 	100% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 200;
 		opacity: 0;
 	}
 }
