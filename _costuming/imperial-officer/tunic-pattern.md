@@ -6,7 +6,7 @@ title: Tunic Pattern
 
 {% include officer/pattern-intro.md %}
 
-<svg>
+<svg style="display:none">
 	<symbol id="foldSymbol">
 		<g>
 			<defs>
