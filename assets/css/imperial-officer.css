@@ -206,11 +206,6 @@ figcaption small {
 	opacity: 0.3;
 }
 
-.PatternPieces__frontPiecesWrapper[data-current] .PatternPieces__frontPiece {
-	fill: #fff !important;
-	fill-opacity: 0.6;
-}
-
 .PatternPieces__frontPiecesWrapper:not([data-current]) .PatternPieces__frontPiece,
 .PatternPieces__frontPiecesWrapper[data-current="2a"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2a),
 .PatternPieces__frontPiecesWrapper[data-current="2b"] .PatternPieces__frontPiece:not(.PatternPieces__frontPiece--2b),
@@ -243,8 +238,8 @@ figcaption small {
 .PatternPieces__centerDartDiagram .PatternPieces__centerDart--center,
 .PatternPieces__centerDartDiagram .PatternPieces__centerDart--left,
 .PatternPieces__centerDartDiagram .PatternPieces__centerDart--right {
-	stroke-dasharray: 24;
-	stroke-dashoffset: 24;
+	stroke-dasharray: 35;
+	stroke-dashoffset: 35;
 }
 
 .PatternPieces__centerDartDiagram .PatternPieces__centerDart--center {
@@ -261,7 +256,7 @@ figcaption small {
 
 @keyframes draw--centerDartDiagramCenter {
 	0% {
-		stroke-dashoffset: 24;
+		stroke-dashoffset: 35;
 		opacity: 1;
 	}
 
@@ -283,7 +278,7 @@ figcaption small {
 
 @keyframes draw--centerDartDiagramLeft {
 	0%, 25% {
-		stroke-dashoffset: 24;
+		stroke-dashoffset: 35;
 		opacity: 1;
 	}
 
@@ -305,7 +300,7 @@ figcaption small {
 
 @keyframes draw--centerDartDiagramRight {
 	0%, 50% {
-		stroke-dashoffset: 24;
+		stroke-dashoffset: 35;
 		opacity: 1;
 	}
 

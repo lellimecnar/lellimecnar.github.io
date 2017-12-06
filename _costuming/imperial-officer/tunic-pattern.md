@@ -6,6 +6,20 @@ title: Tunic Pattern
 
 {% include officer/pattern-intro.md %}
 
+<svg>
+	<symbol id="foldSymbol">
+		<g>
+			<defs>
+				<marker id="openArrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+					<path d="M 0 0 L 10 5 L 0 10 z" style="fill:none;stroke:#000;stroke-width:1px" />
+				</marker>
+			</defs>
+			<text x="10" y="5" style="font-size:4px">CUT ON FOLD</text>
+			<polyline points="5,7 5,1 40,1 40,7" marker-start="url(#openArrow)" marker-end="url(#openArrow)" style="fill:none;stroke:#000;stroke-width:0.5px" />
+		</g>
+	</symbol>
+</svg>
+
 The [McCall's pattern](https://mccallpattern.mccall.com/m4745) has two coat types:
 
 * **A.** single-breasted, upper-thigh length.
@@ -105,8 +119,8 @@ Draw a **dotted** line on the _center line_ connecting the bottom of the collar 
 Now that you have the **front template** with all of the correct markings, you can follow the interactive diagram below to trace out the 9 individual pattern pieces that you need:
 
 <div style="text-align: center" class="PatternPieces__frontPiecesWrapper">
-	<figure style="width: 40%">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.26 143.16">
+	<figure style="width: 100%">
+		<svg xmlns="http://www.w3.org/2000/svg" style="width:400px;stroke-width:0.5px" viewBox="0 0 185.26 143.16">
 			<g class="PatternPieces__frontTemplate PatternPieces__frontTemplate--final  ">
 				{% include officer/front-template.html %}
 			</g>
