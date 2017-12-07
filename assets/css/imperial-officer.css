@@ -238,8 +238,7 @@ figcaption small {
 .PatternPieces__centerDartDiagram .PatternPieces__centerDart--center,
 .PatternPieces__centerDartDiagram .PatternPieces__centerDart--left,
 .PatternPieces__centerDartDiagram .PatternPieces__centerDart--right {
-	stroke-dasharray: 35;
-	stroke-dashoffset: 35;
+	stroke-dasharray: 0 40;
 }
 
 .PatternPieces__centerDartDiagram .PatternPieces__centerDart--center {
@@ -256,66 +255,66 @@ figcaption small {
 
 @keyframes draw--centerDartDiagramCenter {
 	0% {
-		stroke-dashoffset: 35;
+		stroke-dasharray: 0 40;
 		opacity: 1;
 	}
 
 	25% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 1;
 	}
 
 	90% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 1;
 	}
 
 	100% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 0;
 	}
 }
 
 @keyframes draw--centerDartDiagramLeft {
 	0%, 25% {
-		stroke-dashoffset: 35;
+		stroke-dasharray: 0 40;
 		opacity: 1;
 	}
 
 	50% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 1;
 	}
 
 	90% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 1;
 	}
 
 	100% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 0;
 	}
 }
 
 @keyframes draw--centerDartDiagramRight {
 	0%, 50% {
-		stroke-dashoffset: 35;
+		stroke-dasharray: 0 40;
 		opacity: 1;
 	}
 
 	75% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 1;
 	}
 
 	90% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 1;
 	}
 
 	100% {
-		stroke-dashoffset: 0;
+		stroke-dasharray: 40;
 		opacity: 0;
 	}
 }
