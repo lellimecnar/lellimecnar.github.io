@@ -14,89 +14,164 @@ title: Reference
 	<figcaption>Olive Jodhpur Trousers</figcaption>
 </figure>
 
-### Rank Bars - Rogue One
+### Rank Bars - Army
 
 <table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>Science Officer</th>
-		<td>{% include officer/rank-bar.html rank="YYYYR" %}</td>
+		<th colspan="2">Rogue One</th>
 	</tr>
 	<tr>
-		<th>Junior Lieutenant</th>
-		<td>{% include officer/rank-bar.html rank="BB" %}</td>
+		<th>General</th>
+		<td>{% include officer/rank-bar.html rank="RRRRRR" %}</td>
+	</tr>
+	<tr>
+		<th>Colonel</th>
+		<td>{% include officer/rank-bar.html rank="RRRBBB" %}</td>
+	</tr>
+	<tr>
+		<th>Major</th>
+		<td>{% include officer/rank-bar.html rank="RRRBB" %}</td>
+	</tr>
+	<tr>
+		<th>Captain</th>
+		<td>{% include officer/rank-bar.html rank="RRRB" %}</td>
 	</tr>
 	<tr>
 		<th>Lieutenant</th>
 		<td>{% include officer/rank-bar.html rank="RRB" %}</td>
 	</tr>
 </table>
+
 <table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>Captain</th>
-		<td>{% include officer/rank-bar.html rank="BBBRR" %}</td>
+		<th colspan="2">A New Hope</th>
+	</tr>
+	<tr>
+		<th>Grand Moff</th>
+		<td>{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}</td>
 	</tr>
 	<tr>
 		<th>General</th>
-		<td>
-			{% include officer/rank-bar.html rank="RRRRRR" %}
-			{% include officer/rank-bar.html rank="YYYYYY" %}
-		</td>
+		<td>{% include officer/rank-bar.html rank="RRRRRR" %}</td>
+	</tr>
+</table>
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th colspan="2">Empire Strikes Back</th>
+	</tr>
+	<tr>
+		<th>General</th>
+		<td>{% include officer/rank-bar.html rank="RRRR-BBBB" class="wide" %}</td>
+	</tr>
+</table>
+
+### Rank Bars - Navy
+
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th colspan="2">Rogue One</th>
 	</tr>
 	<tr>
 		<th>Admiral</th>
 		<td>{% include officer/rank-bar.html rank="BBBBBB" %}</td>
 	</tr>
-</table>
-
-### Rank Bars - A New Hope
-<table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>Chief</th>
-		<td>{% include officer/rank-bar.html rank="YYYYRR" %}</td>
-	</tr>
-	<tr>
-		<th>Lieutenant</th>
-		<td>{% include officer/rank-bar.html rank="BBBBBB" %}</td>
+		<th>Commodore</th>
+		<td>{% include officer/rank-bar.html rank="BBBRRR" %}</td>
 	</tr>
 	<tr>
 		<th>Captain</th>
-		<td>{% include officer/rank-bar.html rank="YYYYYY" %}</td>
+		<td>{% include officer/rank-bar.html rank="BBBRR" %}</td>
+	</tr>
+	<tr>
+		<th>Commander</th>
+		<td>{% include officer/rank-bar.html rank="BBBR" %}</td>
+	</tr>
+	<tr>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="BBR" %}</td>
+	</tr>
+	<tr>
+		<th>Junior Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="BB" %}</td>
 	</tr>
 </table>
 <table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>General</th>
-		<td>{% include officer/rank-bar.html rank="RRRRRR" %}</td>
+		<th colspan="2">A New Hope</th>
 	</tr>
 	<tr>
 		<th>Admiral</th>
 		<td>{% include officer/rank-bar.html rank="BBRRRR" %}</td>
 	</tr>
 	<tr>
-		<th>Grand Moff</th>
-		<td>{% include officer/rank-bar.html rank="BBBBBB-RRRYYY" %}</td>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="BBBBBB" %}</td>
 	</tr>
 </table>
-
-### Rank Bars - Empire Strikes Back
 <table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>Lieutenant</th>
-		<td>{% include officer/rank-bar.html rank="RR-BB" %}</td>
+		<th colspan="2">Empire Strikes Back</th>
+	</tr>
+	<tr>
+		<th>Admiral</th>
+		<td>{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}</td>
 	</tr>
 	<tr>
 		<th>Captain</th>
 		<td>{% include officer/rank-bar.html rank="RRR-BBB" class="wide" %}</td>
 	</tr>
+	<tr>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="RR-BB" %}</td>
+	</tr>
+</table>
+
+### Rank Bars - Operations/Research
+
+<table class="Officer__table Officer__table--rank">
+	<tr>
+		<th colspan="2">Rogue One</th>
+	</tr>
+	<tr>
+		<th>General</th>
+		<td>
+			{% include officer/rank-bar.html rank="YYYYYY" %}
+			{% include officer/rank-bar.html rank="YYYYRR" %}
+		</td>
+	</tr>
+	<tr>
+		<th>Colonel</th>
+		<td>{% include officer/rank-bar.html rank="YYYYYR" %}</td>
+	</tr>
+	<tr>
+		<th>Major</th>
+		<td>{% include officer/rank-bar.html rank="YYYYR" %}</td>
+	</tr>
+	<tr>
+		<th>Captain</th>
+		<td>{% include officer/rank-bar.html rank="YYYY" %}</td>
+	</tr>
+	<tr>
+		<th>Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="YYY" %}</td>
+	</tr>
 </table>
 <table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>General</th>
-		<td>{% include officer/rank-bar.html rank="RRRR-BBBB" class="wide" %}</td>
+		<th colspan="2">A New Hope</th>
 	</tr>
 	<tr>
-		<th>Admiral</th>
-		<td>{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}</td>
+		<th>General</th>
+		<td>{% include officer/rank-bar.html rank="YYYYYY" %}</td>
+	</tr>
+	<tr>
+		<th>Chief</th>
+		<td>{% include officer/rank-bar.html rank="YYYYRR" %}</td>
+	</tr>
+	<tr>
+		<th>Captain</th>
+		<td>{% include officer/rank-bar.html rank="YYYYYY" %}</td>
 	</tr>
 </table>
 
@@ -110,33 +185,51 @@ title: Reference
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-### Rank Bars - Rogue One
+### Rank Bars
 <table class="Officer__table Officer__table--rank">
+	<tr>
+		<th colspan="2">Rogue One</th>
+	</tr>
+	<tr>
+		<th>General</th>
+		<td>{% include officer/rank-bar.html rank="BBBBBB" %}</td>
+	</tr>
+	<tr>
+		<th>Colonel</th>
+		<td>{% include officer/rank-bar.html rank="BBBBBB" %}</td>
+	</tr>
+	<tr>
+		<th>Major</th>
+		<td>{% include officer/rank-bar.html rank="BBBBB" %}</td>
+	</tr>
+	<tr>
+		<th>Captain</th>
+		<td>{% include officer/rank-bar.html rank="BBBB" %}</td>
+	</tr>
 	<tr>
 		<th>Lieutenant</th>
 		<td>{% include officer/rank-bar.html rank="BBB" %}</td>
 	</tr>
 </table>
-
-### Rank Bars - A New Hope
 <table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>Ensign</th>
-		<td>{% include officer/rank-bar.html rank="RR" %}</td>
+		<th colspan="2">A New Hope</th>
 	</tr>
 	<tr>
-		<th>2nd Lieutenant</th>
-		<td>{% include officer/rank-bar.html rank="RRR" class="wide" %}</td>
+		<th>Commander</th>
+		<td>{% include officer/rank-bar.html rank="BBBBYY" %}</td>
 	</tr>
-</table>
-<table class="Officer__table Officer__table--rank">
 	<tr>
 		<th>Lieutenant</th>
 		<td>{% include officer/rank-bar.html rank="BBBB" %}</td>
 	</tr>
 	<tr>
-		<th>Commander</th>
-		<td>{% include officer/rank-bar.html rank="BBBBYY" %}</td>
+		<th>2nd Lieutenant</th>
+		<td>{% include officer/rank-bar.html rank="RRR" class="wide" %}</td>
+	</tr>
+	<tr>
+		<th>Ensign</th>
+		<td>{% include officer/rank-bar.html rank="RR" %}</td>
 	</tr>
 </table>
 
@@ -171,25 +264,28 @@ Warrant Officers have no rank bars.
 	<figcaption>Black Jodhpur Trousers</figcaption>
 </figure>
 
-### Rank Bars - Rogue One
+### Rank Bars
+
 <table class="Officer__table Officer__table--rank">
+	<tr>
+		<th colspan="2">Rogue One</th>
+	</tr>
 	<tr>
 		<th>Inspector General</th>
 		<td>{% include officer/rank-bar.html rank="RRRB" %}</td>
 	</tr>
 </table>
-
-### Rank Bars - A New Hope
 <table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>Major</th>
-		<td>{% include officer/rank-bar.html rank="BBBRRR" %}</td>
+		<th colspan="2">A New Hope</th>
 	</tr>
-</table>
-<table class="Officer__table Officer__table--rank">
 	<tr>
 		<th>Colonel</th>
 		<td>{% include officer/rank-bar.html rank="RRRBBB" %}</td>
+	</tr>
+	<tr>
+		<th>Major</th>
+		<td>{% include officer/rank-bar.html rank="BBBRRR" %}</td>
 	</tr>
 </table>
 
@@ -224,7 +320,7 @@ Warrant Officers have no rank bars.
 ### Rank Bars
 <table class="Officer__table Officer__table--rank">
 	<tr>
-		<th>Admiral (ESB)/<wbr>Director</th>
+		<th>Navy Admiral (ESB)/<wbr>Director</th>
 		<td>{% include officer/rank-bar.html rank="RRRRRR-BBBBBB" %}</td>
 	</tr>
 </table>
