@@ -79,7 +79,7 @@ Draw two solid horizontal lines 1¼" (double the seam allowance) above and below
 > **NOTE:** We double the seam allowance here so we can hide the inner lining seam by offsetting it ⅝" below the top of the pocket opening.
 
 #### Pocket Lining
-Draw another horizontal dotted line 4" below the dotted _pocket top line_, and label it _"cut for pocket lining."_
+Draw another horizontal dotted line 5" below the dotted _pocket top line_, and label it _"cut for pocket lining."_
 
 <div style="text-align:center">
 	<figure>
