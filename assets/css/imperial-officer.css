@@ -162,7 +162,7 @@ figcaption small {
 
 	30%, 50% {
 		transform: translate3d(0, 0, 0) rotateZ(0deg) scale3d(1, 1, 1);
-		opacity: 1;
+		opacity: 0.6;
 	}
 
 	70%, 100% {
@@ -318,6 +318,10 @@ figcaption small {
 		stroke-dashoffset: 0;
 		opacity: 0;
 	}
+}
+
+.PatternPieces__frontTemplate--final .mainOutline {
+	stroke-width: 1px !important;
 }
 
 .PatternPieces__frontTemplate--A .centerDart,
