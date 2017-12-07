@@ -6,20 +6,6 @@ title: Tunic Pattern
 
 {% include officer/pattern-intro.md %}
 
-<svg style="display:none">
-	<symbol id="foldSymbol">
-		<g>
-			<defs>
-				<marker id="openArrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-					<path d="M 0 0 L 10 5 L 0 10 z" style="fill:none;stroke:#000;stroke-width:1px" />
-				</marker>
-			</defs>
-			<text x="10" y="5" style="font-size:4px">CUT ON FOLD</text>
-			<polyline points="5,7 5,1 40,1 40,7" marker-start="url(#openArrow)" marker-end="url(#openArrow)" style="fill:none;stroke:#000;stroke-width:0.5px" />
-		</g>
-	</symbol>
-</svg>
-
 The [McCall's pattern](https://mccallpattern.mccall.com/m4745) has two coat types:
 
 * **A.** single-breasted, upper-thigh length.
@@ -175,5 +161,20 @@ Repeat the above step with **#2d** in place of **#2i**. Label this one: "**13b**
 ## Collar
 
 {% include officer/abbreviations.md %}
+
+<svg style="opacity:0;height:0">
+	<defs>
+		<marker id="openArrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+			<path d="M 0 0 L 10 5 L 0 10 z" style="fill:none;stroke:#000;stroke-width:1px" />
+		</marker>
+	</defs>
+
+	<symbol id="foldSymbol">
+		<g>
+			<text x="10" y="5" style="font-size:4px">CUT ON FOLD</text>
+			<polyline points="5,7 5,1 40,1 40,7" marker-start="url(#openArrow)" marker-end="url(#openArrow)" style="fill:none;stroke:#000;stroke-width:0.5px" />
+		</g>
+	</symbol>
+</svg>
 
 <script type="text/javascript" src="{{ '/assets/js/imperial-officer.js?v=' | append: site.github.build_revision | relative_url }}"></script>
