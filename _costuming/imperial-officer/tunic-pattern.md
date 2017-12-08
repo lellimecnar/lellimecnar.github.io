@@ -32,7 +32,9 @@ Line up the center line on **#2** with the fold on your tracing fabric, and trac
 	</figure>
 </div>
 
-With the **front template** folded down the _center line_, mark the half-way point on each shoulder. Overlay the **#3** pattern piece you traced in a previous step, lining up the _center lines_ and _bottom edges_ of the two pieces. Add another mark to the _bottom edge_ of the **front template** at the bottom right corner of **#3**.
+Measure the width of the shoulder, and multiply it by 0.6. With the **front template** folded in-half, (down the _center line_) measure that distance from the edge of the collar, and add a mark on the shoulder edge.
+
+Overlay the **#3** pattern piece you traced in a previous step, lining up the _center lines_ and _bottom edges_ of the two pieces. Add another mark to the _bottom edge_ of the **front template** at the bottom right corner of **#3**.
 
 Set **#3** aside.
 
