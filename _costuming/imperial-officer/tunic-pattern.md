@@ -150,15 +150,21 @@ Add a **&darr;Fold&darr;** indicator to the left edge, and label the piece: "**1
 Trace **#12**, using the vertical _"FOLD LINE"_ as the left edge, and label it: "**12** Lower Side Back _(Fabric: cut 4)_."
 
 ### Lower Side Front
-Align the bottom edge of **#2i** to the top edge of **#13** on the left corner. Draw a vertical line from the bottom right corner of **#2i** to the _"Cut here for A"_ line on **#13**. With that vertical line as you right edge, trace a new pattern piece, and label it: "**13a** Lower Right Side Front _(Fabric: cut 2)_."
+Align the bottom edge of **#2d** to the top edge of **#13** on the left corner. Draw a vertical line from the bottom right corner of **#2d** to the _"Cut here for A"_ line on **#13**. With that vertical line as your right edge, trace a new pattern piece. Label the right edge _"Cut for front right"_.
 
-Repeat the above step with **#2d** in place of **#2i**. Label this one: "**13b** Lower Left Side Front _(Fabric: cut 2)_."
+Set **#2d** aside.
 
-> **NOTE:** You may need to extend beyond the width of **#13** when you trace **#13b**. Just make sure your right edge is vertical.
+> **NOTE:** You may need to extend beyond the width of **#13** when you trace the new piece. Just make sure your right edge is vertical.
+
+Now, align **#2i** to **#13** in the same way, and draw another vertical line from the bottom right corner of **#2i** in the same way. Label this line _"Cut for front left"_.
+
+Label the new piece "**13** Lower Side Front _(Fabric: cut 2 for left and 2 for right)_"
 
 ## Sleeves
+Use **#7** and **#8** unaltered and as directed for the sleeves.
 
 ## Collar
+Use **#6** unaltered and as directed for the collar.
 
 {% include officer/abbreviations.md %}
 
